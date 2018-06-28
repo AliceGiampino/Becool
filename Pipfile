@@ -4,6 +4,11 @@ flask = "*"
 requests = "*"
 numpy = "*"
 pandas = "*"
+geocoder = "*"
+pickle = "*"
+math = "*"
+cgi = "*"
+
 
 [requires]
 python_version = "2.7"
