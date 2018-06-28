@@ -1,9 +1,5 @@
 from flask import Flask, render_template
-import pickle
-import geocoder
 import requests
-from math import radians, cos, sin, asin, sqrt
-import cgi 
 
 app = Flask(__name__)
 
