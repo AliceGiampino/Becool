@@ -1,5 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import requests
+import previsioni as pv
 
 app = Flask(__name__)
 
@@ -7,11 +8,15 @@ app = Flask(__name__)
 def index():
 	return render_template("try.html")
  
-@app.route('/result', methods = ['POST', 'GET'])
+@app.route('/result', methods = ['GET'])
 def result():
-   if request.method == 'POST':
-      result = request.form['Position']
-      return render_template("result.html",result = result)
+	#if request.method == 'GET':
+	#result1 = request.form.get('Position')
+	result2 = request.args.get('Position')
+	#result3 = request.values.get('Position')
+	#print(, result2, result3)
+	prev = pv.previsioni(pv.dataset(result2))
+	return render_template("try.html", prev=prev, controllo=True)
 
 
 
