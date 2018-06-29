@@ -40,7 +40,6 @@
     <a href="#work" class="w3-bar-item w3-button">Work</a>
     <a href="#location" class="w3-bar-item w3-button">Location</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
   </div>
 </div>
 
@@ -79,7 +78,7 @@
 <div class="w3-row"><br>
 
 <div class="w3-quarter">
-  <img src="{{ url_for('static', filename="DSC_0277.jpg")}}"alt="Author" style="width:40%" class="w3-circle w3-hover-opacity">
+  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:40%" class="w3-circle w3-hover-opacity">
   <h3>Alice Giampino</h3>
   <p>Statitician & Data Scientist</p>
 </div>
@@ -104,25 +103,30 @@
 
 <div class="w3-container" style="padding:128px 16px" id="about">
 	<h2 class="w3-center">Prediction of PM10</h2>
-	<p class="w3-center w3-large">The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly.</p>
+	<p class="w3-center w3-large">The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
+	PM10's concentration have impacts on climate and precipitation that adversely affect human health. <br>
+	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
+	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
+	So it's important be-ecofriendly and be informated not only for our health but for our earth's health too. </p>
 	<div class="w3-row-padding w3-center" style="margin-top:64px">
-		<div class="w3-quarter" style="margin:30px">
+		<div class="w3-quarter" style="margin:62px">
 			<i class="fa fa-street-view w3-margin-bottom w3-jumbo w3-center"></i>
 			<p class="w3-large"> Location </p>
 			<p>Insert your current/future position.</p>
 		</div>
-		<div class="w3-quarter" style="margin:30px">
+		<div class="w3-quarter" style="margin:62px">
 			<i class="fa fa-check-square-o w3-margin-bottom w3-jumbo"></i>
 			<p class="w3-large">Prediction</p>
 			<p>Wait air quality's prediction.</p>
 		</div>
-		<div class="w3-quarter" style="margin:30px">
+		<div class="w3-quarter" style="margin:62px">
 			<i class="fa fa-tree w3-margin-bottom w3-jumbo"></i>
 			<p class="w3-large">Info</p>
 			<p>Learn information on the map below.</p>
 		</div>
 	</div>
 </div>
+
 
 <!-- Container -->
 <div class="w3-container" style="position:relative">
@@ -182,10 +186,13 @@ document.getElementById("demo").innerHTML = d;
 <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Map</span></div>
 <div class="w3-section">
 <div class="w3-quarter">
-	<form>
+	<form method='get' action='/result'>
 	<label>Position (es. via Koch, Milano)</label>
 	<input class="w3-input" type="text" name="Position" required>
-	<button type="submit" action='/result' class="w3-button w3-right w3-theme">Go!</button>
+	<a href="{{ url_for('result', result=result)}}">
+	<button type="submit" class="w3-button w3-right w3-theme">Go!
+	</button>
+	</a>
 	</form>
 </div>
 <div id="googleMap" style="width:100%;height:420px;"></div>
@@ -212,15 +219,12 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
+{% if controllo %}
+<p> PM10's concentration is: {{ prev }} </p>
+{% endif %}
+
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <h4>Follow Us</h4>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-
   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
     <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
     <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
