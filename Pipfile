@@ -4,7 +4,10 @@ flask = "*"
 requests = "*"
 numpy = "*"
 pandas = "*"
-
+gecoder = "*"
+math = "*"
+sklearn = "*"
+scipy = "*"
 
 
 [requires]
