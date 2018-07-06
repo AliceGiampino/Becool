@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html>
-<title>Capstone</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<body id="myPage">
+<html class="no-js" lang="it-IT" prefix="og: http://ogp.me/ns#">
+<head>
+	<title>Capstone</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='assets/css/screen.css')}}">
+	<script src="{{ url_for('static',filename='assets/js/alone/jquery-1.10.2.min.js')}}" type="text/javascript"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body id="myPage" class="">
 
 <!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  <a href="./static/world.png" class="w3-bar-item w3-button">
+	<h2>PM10 worldwide</h2>
+	<img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="world.png")}}"> </a>
+  <a href="./static/Europe.jpg" class="w3-bar-item w3-button"><h2>PM10 in Europe</h2>
+  <img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="Europe.jpg")}}" ></a>
+
 </nav>
 
 <!-- Navbar -->
@@ -27,7 +34,7 @@
   <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Author</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#googleMap" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Map</a>
+  <a href="#map_id" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Map</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
   </div>
   </div>
@@ -38,16 +45,16 @@
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
     <a href="#team" class="w3-bar-item w3-button">Author</a>
     <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#location" class="w3-bar-item w3-button">Location</a>
+    <a href="#map_id" class="w3-bar-item w3-button">Map</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
   </div>
 </div>
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
-  <img <img src="{{ url_for('static', filename="parco_sempion.jpg")}}" alt="Milan" style="width:100%;min-height:350px;max-height:600px;">
+  <img <img src="{{ url_for('static', filename="parco_sempion.jpg")}}" alt="Milan" style="width:100%;min-height:100px;max-height:800px;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">BECOOL</button>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">What is PM10?</button>
   </div>
 </div>
 
@@ -56,12 +63,13 @@
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container"> 
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>PM10</h4>
-      <h5>What is that?</h5>
+      <h5><br>PM10 </h5> 
+	  <h6>stand for particulate matter with a diameter between 2.5 and 10 micrometers (μm).</h6>
+      <h6>Daily average limit: <br> 50 µg/m3 for Europe and 150 µg/m3 for United State. <br> Do you want to know more?</h6>
     </header>
     <div class="w3-container">
       <p></p>
-      <p>Go to <a class="w3-text-teal" href="https://en.wikipedia.org/wiki/Particulates">explanation</a> to learn more!</p>
+      <p>Go to <a class="w3-text-teal" href="https://en.wikipedia.org/wiki/Particulates">explanation.</a></p>
     </div>
     <footer class="w3-container w3-teal">
       <p>Be eco-friendly! Be usefull to yourself.</p>
@@ -70,31 +78,53 @@
 </div>
 
 <!-- Team Container -->
+
 <div class="w3-container w3-padding-64 w3-center" id="team">
+ <a href="./static/title.jpg">
  <img src="{{ url_for('static', filename="title.jpg")}}"alt="Title" style="width:45%" class="w3-hover-opacity">
- <h2>Prediction of air pollution based on PM10's concentration.</h2>
-
-
-<div class="w3-row"><br>
-
-<div class="w3-quarter">
-  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:40%" class="w3-circle w3-hover-opacity">
-  <h3>Alice Giampino</h3>
-  <p>Statitician & Data Scientist</p>
+ </a>
+ <h2> <br>Prediction of air pollution based on PM10's concentration.</h2>
+<br>
+<div>
+<div class="row">
+  <div style='float: left; width: 50%'>
+	<a href="./static/comuni milano.jpg" >
+	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
+	</a>
+	<h2>Provincia di Milano</h2>
+	 <h5>Area of study.</h5>
+  </div>
+  <div style='float: right; width: 50%'>
+    <a href="./static/milcentro.jpg">
+	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
+	  </a>
+	  <h2>Milano</h2>
+	  <h5>Area of study.</h5>
+  </div>
 </div>
-
-<div class="w3-quarter">
-  <img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:60%" class="w3-circle w3-hover-opacity"> 
-  <h3>Provincia di Milano</h3>
-  <p>Study area.</p>
 </div>
+<br>
+<br>
+<br>
+<br>
+<div>
+	<div style='float: left; width: 50%'>
+	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle w3-hover-opacity"><br><br>
+	  
+	  <h4>Alice Giampino</h4>
+	  <h6>Statitician & Data Scientist</h6> 
+	</div>
+	<div style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
+	<h4>Model: </h4>
 
-<div class="w3-quarter">
-  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:48%" class="w3-circle w3-hover-opacity">
-  <h3>Milano</h3>
-  <p>Study area.</p>
-</div>
-
+		<p>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
+		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
+		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
+		to the model. Also the previous two days of weather temperature are added (if available).
+		<br>
+		The prediction is done in real time!
+		</p>
+	</div>
 </div>
 </div>
 
@@ -108,31 +138,215 @@
 	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
 	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
 	So it's important be-ecofriendly and be informated not only for our health but for our earth's health too. </p>
-	<div class="w3-row-padding w3-center" style="margin-top:64px">
-		<div class="w3-quarter" style="margin:62px">
-			<i class="fa fa-street-view w3-margin-bottom w3-jumbo w3-center"></i>
-			<p class="w3-large"> Location </p>
-			<p>Insert your current/future position.</p>
+	<br><br><br>
+	
+	<div align='center' width='80%'>
+	<table width='80%'>
+	
+		<tr>
+	<td width='33%'>
+		<div  align='center' style="padding-right: 60px; padding-left: 60px">
+			<i class="fa fa-street-view w3-margin-bottom w3-jumbo"></i>
 		</div>
-		<div class="w3-quarter" style="margin:62px">
+		</td>
+	<td width='33%'>   
+		<div  align='center' style="padding-right: 60px; padding-left: 60px">
 			<i class="fa fa-check-square-o w3-margin-bottom w3-jumbo"></i>
-			<p class="w3-large">Prediction</p>
+		</div>
+	</td>
+	<td width='33%'>  
+		<div  align='center' style="padding-right: 60px; padding-left: 60px">
+			<i class="fa fa-tree w3-margin-bottom w3-jumbo"></i>
+		</div>
+	</td>
+	
+	</tr>
+
+	<tr>
+	<td width='33%' style='vertical-align:top !important'>
+		<div align='center' style="padding-right: 60px; padding-left: 60px">
+		<p class="w3-large"> Location </p>
+			<p>Insert your current/future position (max 5 days forward).</p>
+		</div>
+		</td>
+	<td width='33%' style='vertical-align:top !important'>   
+		<div  align='center' style="padding-right: 60px; padding-left: 60px">
+		<p class="w3-large">Prediction</p>
 			<p>Wait air quality's prediction.</p>
 		</div>
-		<div class="w3-quarter" style="margin:62px">
-			<i class="fa fa-tree w3-margin-bottom w3-jumbo"></i>
+	</td>
+	<td width='33%' style='vertical-align:top !important'>  
+		<div  align='center' style="padding-right: 60px; padding-left: 60px">
 			<p class="w3-large">Info</p>
 			<p>Learn information on the map below.</p>
 		</div>
+	</td>
+	
+	</tr>
+	</table>
 	</div>
+	
+	
+	<br><br><br>
+	
 </div>
-
+</div>
 
 <!-- Container -->
 <div class="w3-container" style="position:relative">
   <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
   style="position:absolute;top:-28px;right:24px">+</a>
 </div>
+
+<!-- Google Maps -->
+<div class="w3-container w3-padding-64 w3-theme-l5">
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Map</span></div>
+<div class="w3-section">
+<div class="w3-quarter" style='width:300px'>
+	<form action = "/" method="POST">
+	<label>Position (es. via Koch, Milano):</label>
+		<input class="w3-input" type="text" name="Position" required>
+		  <div class="form-group">
+	                   <label for="unique_carrier">Date:</label>
+                       <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                        <input type="text" name="date" class="form-control datetimepicker-input" value="{{ dt_string }}" data-target="#datetimepicker1" data-limit="{{ dt_string_limit }}"/>
+						<script>var data = {{dt_string}};
+						console.log(data)
+						</script>
+                        <span class="input-group-addon" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                            <span class="fa fa-calendar"></span>
+                        </span>
+                    </div>
+                   </div>
+                <div class="form-group">
+                       <input type="submit" value="Go!" class="btn btn-primary float-right" />
+                </div>
+	</form>
+</div>
+</div>
+<div>
+
+</div>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+   integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+   crossorigin=""></script>
+<div id="map"></div>
+<br />
+<input type="checkbox" id="bike" class="check" checked>Bike - Sharing
+<br />
+<input type="checkbox" id="ferrovia" class="check" checked>Railway Station
+<br />
+<input type="checkbox" id="farmacia" class="check" checked>Pharmacy
+<br>
+<button id="clearAll">
+  Clear All
+</button>
+<div id="map_id" style="width:100%;height:500px;"></div>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+
+<script>
+var map_var = L.map('map_id').setView([45.4642700,  9.1895100], 16);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map_var);
+
+
+var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
+	   for (var i = 0; i < json1.length; i++) {
+		var place = json1[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/bike_share.png',
+		iconSize:     [38, 40], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker = L.marker(place.coordinate, {icon: customIcon});
+		if (marker != null){
+			marker_array.push(marker);
+			marker.addTo(map_var).bindPopup(place.Indirizzo);
+			}
+		else{$('#bike').text = "Error"}
+		}
+	 
+});
+
+
+var ferrovia = $.getJSON( "./static/train.json", function(json2) {
+	   for (var i = 0; i < json2.length; i++) {
+		var place = json2[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/train.png',
+		iconSize:     [38, 40], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker = L.marker(place.coordinate, {icon: customIcon});
+		if (marker != null){
+			marker_array.push(marker);
+			marker.addTo(map_var).bindPopup(place.Indirizzo);
+			}
+		else{$('#ferrovia').text = "Error"}
+		}
+	 
+});
+
+var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
+	   for (var i = 0; i < json3.length; i++) {
+		var place = json3[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/phar.png',
+		iconSize:     [35, 37], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker = L.marker(place.coordinate, {icon: customIcon});
+		if (marker != null){
+			marker_array.push(marker);
+			marker.addTo(map_var).bindPopup('FARMACIA '+place.Indirizzo);
+			}
+		else{$('#farmacie').text = "Error"}
+		}
+	 
+});
+
+var button = new L.Control.Button('Click me');
+button.addTo(map_var);
+button.on('click', function () {
+    alert('you clicked the button!');
+});
+</script>
+
+
+</div>
+
+{% if show_prev %}
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="prev">
+<div class="w3-container" style="padding:128px 16px" id="about">
+	<h2 class='w3-center'>Air Pollution:</h2>
+	<div class="w3-center">
+		<p><br>Today the concentration of PM10 is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3 </p>
+		<a href={{ nome_file }}>
+			<img src={{ nome_file }} alt="prediction" style="width:35%" class="w3-circle w3-hover-opacity">
+		</a>
+	</div>
+</div>
+</div>
+{% endif %}
+
+
 
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
@@ -155,13 +369,9 @@
         <label>Email</label>
         <input class="w3-input" type="text" name="Email" required>
       </div>
-      <div class="w3-section">      
-        <label>Message</label>
-        <input class="w3-input" type="text" name="Message" required>
-      </div>  
       <input class="w3-check" type="checkbox" checked name="Like">
       <label>I Like it!</label>
-	  <button type="submit" class="w3-button w3-right w3-theme">
+	  <button type="submit" class="form-group w3-right">
 		<a href="mailto:youremailaddress">Send</a>
 	  </button>
       </form>
@@ -169,63 +379,9 @@
   </div>
 </div>
 
-<body>
-
-<h2 class='w3-center'>Date</h2>
-
-<p id="demo" class='w3-center'></p>
-
-<script>
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
-
-</body>
-
-<!-- Google Maps -->
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Map</span></div>
-<div class="w3-section">
-<div class="w3-quarter">
-	<form method='get' action='/result'>
-	<label>Position (es. via Koch, Milano)</label>
-	<input class="w3-input" type="text" name="Position" required>
-	<a href="{{ url_for('result', result=result)}}">
-	<button type="submit" class="w3-button w3-right w3-theme">Go!
-	</button>
-	</a>
-	</form>
-</div>
-<div id="googleMap" style="width:100%;height:420px;"></div>
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(45.4642700,  9.1895100);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
-{% if controllo %}
-<p> PM10's concentration is: {{ prev }} </p>
-{% endif %}
-
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+  <div style="position:bottom:100px;z-index:1;" class="w3-tooltip w3-right">
     <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
     <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
@@ -257,17 +413,10 @@ function openNav() {
 }
 </script>
 
-</body>
-<head> 
-    <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("mappa.html"); 
-    });
-    </script> 
-  </head> 
+	<!-- body js -->
+	<script src="{{ url_for('static',filename='assets/js/plugins.min.js')}}" type="text/javascript"></script>
+	<script src="{{ url_for('static',filename='assets/js/main.min.js')}}" type="text/javascript"></script>
 
-  <body> 
-     <div id="includedContent"></div>
-  </body> 
+</body>
+
 </html>
