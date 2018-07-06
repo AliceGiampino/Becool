@@ -1,0 +1,754 @@
+[
+  {
+    "coordinate": [45.464743, 9.189135799999999],
+    "Indirizzo": "Bike Sharing P.za Duomo Milano"
+  },
+  {
+    "coordinate": [45.4664299, 9.1976032],
+    "Indirizzo": "Bike Sharing P.za S.Babila Milano"
+  },
+  {
+    "coordinate": [45.454943, 9.162632600000002],
+    "Indirizzo": "Bike Sharing P.za Cadorna Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing L.go Greppi Milano"
+  },
+  {
+    "coordinate": [45.4630677, 9.1764422],
+    "Indirizzo": "Bike Sharing P.za S.Ambrogio Milano"
+  },
+  {
+    "coordinate": [45.4608931, 9.183724699999999],
+    "Indirizzo": "Bike Sharing P.za S.Giorgio Milano"
+  },
+  {
+    "coordinate": [45.4627759, 9.1868521],
+    "Indirizzo": "Bike Sharing P.za S.Maria Beltrade Milano"
+  },
+  {
+    "coordinate": [45.4600275, 9.1901805],
+    "Indirizzo": "Bike Sharing P.za Velasca Milano"
+  },
+  {
+    "coordinate": [45.459511, 9.1930956],
+    "Indirizzo": "Bike Sharing P.za S.Stefano Milano"
+  },
+  {
+    "coordinate": [45.4613336, 9.1881045],
+    "Indirizzo": "Bike Sharing P.za Missori Milano"
+  },
+  {
+    "coordinate": [45.4725222, 9.1793779],
+    "Indirizzo": "Bike Sharing Via Gadio Milano"
+  },
+  {
+    "coordinate": [45.4585863, 9.1816648],
+    "Indirizzo": "Bike Sharing Via Pio IV Milano"
+  },
+  {
+    "coordinate": [45.4704544, 9.1975933],
+    "Indirizzo": "Bike Sharing Via Senato Milano"
+  },
+  {
+    "coordinate": [45.4595171, 9.1985422],
+    "Indirizzo": "Bike Sharing Via S. Barnaba Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing P.za Cantore Milano"
+  },
+  {
+    "coordinate": [45.480156, 9.1866712],
+    "Indirizzo": "Bike Sharing L.go La Foppa Milano"
+  },
+  {
+    "coordinate": [45.477062, 9.1810171],
+    "Indirizzo": "Bike Sharing Via Legnano Milano"
+  },
+  {
+    "coordinate": [45.4694848, 9.1665793],
+    "Indirizzo": "Bike Sharing P.za Tommaseo Milano"
+  },
+  {
+    "coordinate": [45.459511, 9.1930956],
+    "Indirizzo": "Bike Sharing Via S.Sofia Milano"
+  },
+  {
+    "coordinate": [45.4591275, 9.1897311],
+    "Indirizzo": "Bike Sharing P.za Erculea Milano"
+  },
+  {
+    "coordinate": [45.4485736, 9.189945],
+    "Indirizzo": "Bike Sharing Via Bocconi Milano"
+  },
+  {
+    "coordinate": [45.4516402, 9.2033004],
+    "Indirizzo": "Bike Sharing C.so Lodi Milano"
+  },
+  {
+    "coordinate": [45.4582768, 9.2052722],
+    "Indirizzo": "Bike Sharing V.le Regina Margherita Milano"
+  },
+  {
+    "coordinate": [45.4682919, 9.214444],
+    "Indirizzo": "Bike Sharing C.so Concordia Milano"
+  },
+  {
+    "coordinate": [45.484668, 9.205227299999999],
+    "Indirizzo": "Bike Sharing P.za Duca d'Aosta sx Milano"
+  },
+  {
+    "coordinate": [45.4854624, 9.202558],
+    "Indirizzo": "Bike Sharing P.za Duca d'Aosta dx Milano"
+  },
+  {
+    "coordinate": [45.47463949999999, 9.2045336],
+    "Indirizzo": "Bike Sharing Bastioni di P.ta Venezia Milano"
+  },
+  {
+    "coordinate": [34.1545882, -118.1426187],
+    "Indirizzo": "Bike Sharing L.go Callas Milano"
+  },
+  {
+    "coordinate": [45.4623863, 9.2012923],
+    "Indirizzo": "Bike Sharing C.so P.ta Vittoria Milano"
+  },
+  {
+    "coordinate": [45.4562102, 9.1957323],
+    "Indirizzo": "Bike Sharing L.go Crocetta Milano"
+  },
+  {
+    "coordinate": [45.4768553, 9.198317699999999],
+    "Indirizzo": "Bike Sharing Via Manin Milano"
+  },
+  {
+    "coordinate": [45.4718124, 9.1736879],
+    "Indirizzo": "Bike Sharing Via Alemagna Milano"
+  },
+  {
+    "coordinate": [45.4676841, 9.1821644],
+    "Indirizzo": "Bike Sharing L.go Cairoli Milano"
+  },
+  {
+    "coordinate": [45.4605111, 9.1819622],
+    "Indirizzo": "Bike Sharing Via Torino Milano"
+  },
+  {
+    "coordinate": [45.4592089, 9.183816799999999],
+    "Indirizzo": "Bike Sharing Via S.Vito Milano"
+  },
+  {
+    "coordinate": [45.45308319999999, 9.1869528],
+    "Indirizzo": "Bike Sharing C.so Italia Milano"
+  },
+  {
+    "coordinate": [45.4522248, 9.1795797],
+    "Indirizzo": "Bike Sharing P.le XXIV Maggio Milano"
+  },
+  {
+    "coordinate": [45.480156, 9.1866712],
+    "Indirizzo": "Bike Sharing C.so Garibaldi Milano"
+  },
+  {
+    "coordinate": [45.4640327, 9.1689659],
+    "Indirizzo": "Bike Sharing Via Morozzo della Rocca Milano"
+  },
+  {
+    "coordinate": [45.467689, 9.166953399999999],
+    "Indirizzo": "Bike Sharing P.za Conciliazione Milano"
+  },
+  {
+    "coordinate": [45.4661328, 9.195600299999999],
+    "Indirizzo": "Bike Sharing Via S.Pietro all'Orto Milano"
+  },
+  {
+    "coordinate": [45.459511, 9.1930956],
+    "Indirizzo": "Bike Sharing Via Festa del Perdono Milano"
+  },
+  {
+    "coordinate": [45.4583118, 9.192630399999999],
+    "Indirizzo": "Bike Sharing L.go Richini Milano"
+  },
+  {
+    "coordinate": [45.46411699999999, 9.1865734],
+    "Indirizzo": "Bike Sharing Via Cantu Milano"
+  },
+  {
+    "coordinate": [45.4800049, 9.192856299999999],
+    "Indirizzo": "Bike Sharing P.le Principessa Clotilde Milano"
+  },
+  {
+    "coordinate": [45.4523231, 9.1775925],
+    "Indirizzo": "Bike Sharing V.le Gorizia Milano"
+  },
+  {
+    "coordinate": [45.4523231, 9.1775925],
+    "Indirizzo": "Bike Sharing V.le Gorizia Milano"
+  },
+  {
+    "coordinate": [45.46648980000001, 9.1929837],
+    "Indirizzo": "Bike Sharing Via S.Paolo Milano"
+  },
+  {
+    "coordinate": [45.4643704, 9.1947928],
+    "Indirizzo": "Bike Sharing P.za Beccaria Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing Via F.lli Ruffini Milano"
+  },
+  {
+    "coordinate": [45.48221700000001, 9.2032974],
+    "Indirizzo": "Bike Sharing Via Vittor Pisani Milano"
+  },
+  {
+    "coordinate": [45.4729481, 9.196451999999999],
+    "Indirizzo": "Bike Sharing Via Palestro Milano"
+  },
+  {
+    "coordinate": [45.45518300000001, 9.180833699999999],
+    "Indirizzo": "Bike Sharing C.so P.ta Ticinese Milano"
+  },
+  {
+    "coordinate": [45.46266869999999, 9.2069735],
+    "Indirizzo": "Bike Sharing P.za Cinque Giornate Milano"
+  },
+  {
+    "coordinate": [45.4759482, 9.2005476],
+    "Indirizzo": "Bike Sharing V.le Citta di Fiume Milano"
+  },
+  {
+    "coordinate": [45.47166259999999, 9.1876233],
+    "Indirizzo": "Bike Sharing Via Brera Milano"
+  },
+  {
+    "coordinate": [45.4588725, 9.169604999999999],
+    "Indirizzo": "Bike Sharing Via Numa Pompilio Milano"
+  },
+  {
+    "coordinate": [45.4729481, 9.196451999999999],
+    "Indirizzo": "Bike Sharing Via Palestro Milano"
+  },
+  {
+    "coordinate": [45.4643397, 9.183596],
+    "Indirizzo": "Bike Sharing Via della Posta Milano"
+  },
+  {
+    "coordinate": [45.4632251, 9.198549],
+    "Indirizzo": "Bike Sharing L.go Augusto Milano"
+  },
+  {
+    "coordinate": [45.4750649, 9.186824399999999],
+    "Indirizzo": "Bike Sharing L.go Treves Milano"
+  },
+  {
+    "coordinate": [45.4640327, 9.1689659],
+    "Indirizzo": "Bike Sharing Via S.Vittore Milano"
+  },
+  {
+    "coordinate": [45.463223, 9.189955699999999],
+    "Indirizzo": "Bike Sharing Via Marconi Milano"
+  },
+  {
+    "coordinate": [45.4585552, 9.1875194],
+    "Indirizzo": "Bike Sharing P.za Bertarelli Milano"
+  },
+  {
+    "coordinate": [45.4729481, 9.196451999999999],
+    "Indirizzo": "Bike Sharing P.za Cavour Milano"
+  },
+  {
+    "coordinate": [45.4794078, 9.1973842],
+    "Indirizzo": "Bike Sharing P.za della Repubblica Milano"
+  },
+  {
+    "coordinate": [45.4606313, 9.2056079],
+    "Indirizzo": "Bike Sharing Via Visconti Venosta Milano"
+  },
+  {
+    "coordinate": [45.4600275, 9.1901805],
+    "Indirizzo": "Bike Sharing P.za S.Nazaro in Brolo Milano"
+  },
+  {
+    "coordinate": [45.4731438, 9.1900829],
+    "Indirizzo": "Bike Sharing Via Fatebenefratelli Milano"
+  },
+  {
+    "coordinate": [45.4518881, 9.2028903],
+    "Indirizzo": "Bike Sharing P.za Medaglie d'Oro Milano"
+  },
+  {
+    "coordinate": [45.456703, 9.1927702],
+    "Indirizzo": "Bike Sharing Via S.Calimero Milano"
+  },
+  {
+    "coordinate": [45.4673939, 9.204449499999999],
+    "Indirizzo": "Bike Sharing Via Baretti Milano"
+  },
+  {
+    "coordinate": [45.4670654, 9.1840691],
+    "Indirizzo": "Bike Sharing Via S.Tomaso Milano"
+  },
+  {
+    "coordinate": [45.4687591, 9.1850913],
+    "Indirizzo": "Bike Sharing Via Cusani Milano"
+  },
+  {
+    "coordinate": [45.4617627, 9.1818982],
+    "Indirizzo": "Bike Sharing P.za Mentana Milano"
+  },
+  {
+    "coordinate": [45.4766668, 9.191792],
+    "Indirizzo": "Bike Sharing C.so P.ta Nuova Milano"
+  },
+  {
+    "coordinate": [45.4608302, 9.1632737],
+    "Indirizzo": "Bike Sharing P.le Aquileia Milano"
+  },
+  {
+    "coordinate": [45.4666423, 9.169708],
+    "Indirizzo": "Bike Sharing P.le Baracca Milano"
+  },
+  {
+    "coordinate": [45.4712025, 9.1924607],
+    "Indirizzo": "Bike Sharing P.za S. Erasmo Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing V.le Bach Milano"
+  },
+  {
+    "coordinate": [45.459511, 9.1930956],
+    "Indirizzo": "Bike Sharing P.za dell'Umanitaria Milano"
+  },
+  {
+    "coordinate": [45.46378439999999, 9.19299],
+    "Indirizzo": "Bike Sharing Via Rastrelli Milano"
+  },
+  {
+    "coordinate": [45.4689827, 9.1762441],
+    "Indirizzo": "Bike Sharing Via Paleocapa Milano"
+  },
+  {
+    "coordinate": [45.4656871, 9.175832],
+    "Indirizzo": "Bike Sharing Via Buttinone Milano"
+  },
+  {
+    "coordinate": [45.4653894, 9.2030678],
+    "Indirizzo": "Bike Sharing Via Conservatorio Milano"
+  },
+  {
+    "coordinate": [45.4529393, 9.1696777],
+    "Indirizzo": "Bike Sharing P.ale Stazione Genova Milano"
+  },
+  {
+    "coordinate": [45.452226, 9.1975096],
+    "Indirizzo": "Bike Sharing V.le Filippetti Angelo Milano"
+  },
+  {
+    "coordinate": [45.4517269, 9.1941498],
+    "Indirizzo": "Bike Sharing Via Patellani Milano"
+  },
+  {
+    "coordinate": [45.4846681, 9.1948586],
+    "Indirizzo": "Bike Sharing Via Filippo Sassetti Milano"
+  },
+  {
+    "coordinate": [45.52102199999999, 9.219218999999999],
+    "Indirizzo": "Bike Sharing Via Pirelli Milano"
+  },
+  {
+    "coordinate": [45.4643397, 9.183596],
+    "Indirizzo": "Bike Sharing Via Gabrio Casati Milano"
+  },
+  {
+    "coordinate": [45.4658427, 9.199988700000002],
+    "Indirizzo": "Bike Sharing Via Borgogna Milano"
+  },
+  {
+    "coordinate": [45.454943, 9.162632600000002],
+    "Indirizzo": "Bike Sharing P.za Cadorna Milano"
+  },
+  {
+    "coordinate": [45.4583196, 9.1785712],
+    "Indirizzo": "Bike Sharing P.za Resistenza Partigiana Milano"
+  },
+  {
+    "coordinate": [45.4673939, 9.204449499999999],
+    "Indirizzo": "Bike Sharing Via Donizzetti Milano"
+  },
+  {
+    "coordinate": [45.4570149, 9.182206599999999],
+    "Indirizzo": "Bike Sharing Via Molino delle Armi Milano"
+  },
+  {
+    "coordinate": [45.4786863, 9.1892189],
+    "Indirizzo": "Bike Sharing Via San Marco Milano"
+  },
+  {
+    "coordinate": [45.4762475, 9.173339499999999],
+    "Indirizzo": "Bike Sharing Via Bertani Milano"
+  },
+  {
+    "coordinate": [45.4668679, 9.1914718],
+    "Indirizzo": "Bike Sharing Via Case Rotte Milano"
+  },
+  {
+    "coordinate": [45.4725222, 9.1793779],
+    "Indirizzo": "Bike Sharing Via Gadio Milano"
+  },
+  {
+    "coordinate": [45.0733431, 7.682287700000001],
+    "Indirizzo": "Bike Sharing Via Arcivescovado Milano"
+  },
+  {
+    "coordinate": [45.4762475, 9.173339499999999],
+    "Indirizzo": "Bike Sharing Via Sempione Milano"
+  },
+  {
+    "coordinate": [45.48693859999999, 9.1980802],
+    "Indirizzo": "Bike Sharing Via Melchiorre Gioia Milano"
+  },
+  {
+    "coordinate": [34.1545882, -118.1426187],
+    "Indirizzo": "Bike Sharing C.so Lodi + P.le Lodi Milano"
+  },
+  {
+    "coordinate": [45.48772899999999, 9.1949753],
+    "Indirizzo": "Bike Sharing Viale Restelli Milano"
+  },
+  {
+    "coordinate": [45.48093859999999, 9.197111],
+    "Indirizzo": "Bike Sharing P.zza San Gioachimo Milano"
+  },
+  {
+    "coordinate": [45.4789467, 9.2016283],
+    "Indirizzo": "Bike Sharing V.le Tunisia - Cozzi Milano"
+  },
+  {
+    "coordinate": [45.4776849, 9.204218599999999],
+    "Indirizzo": "Bike Sharing V.le Tunisia - Bellintani Milano"
+  },
+  {
+    "coordinate": [45.4763413, 9.2084795],
+    "Indirizzo": "Bike Sharing P.zza S. Francesca Romana Milano"
+  },
+  {
+    "coordinate": [45.4803601, 9.2080679],
+    "Indirizzo": "Bike Sharing Via Benedetto Marcello Milano"
+  },
+  {
+    "coordinate": [45.4871563, 9.2035748],
+    "Indirizzo": "Bike Sharing Via Napo Torriani Milano"
+  },
+  {
+    "coordinate": [45.4806848, 9.2107003],
+    "Indirizzo": "Bike Sharing P.za Lima Milano"
+  },
+  {
+    "coordinate": [45.4837642, 9.2147349],
+    "Indirizzo": "Bike Sharing P.za Argentina Milano"
+  },
+  {
+    "coordinate": [45.485194, 9.2091437],
+    "Indirizzo": "Bike Sharing P.zza Caiazzo Milano"
+  },
+  {
+    "coordinate": [45.4964591, 9.2031314],
+    "Indirizzo": "Bike Sharing Via Morgagni Milano"
+  },
+  {
+    "coordinate": [45.48122739999999, 9.214775],
+    "Indirizzo": "Bike Sharing Via Monteverdi, angolo Bacone Milano"
+  },
+  {
+    "coordinate": [45.4763413, 9.2084795],
+    "Indirizzo": "Bike Sharing P.zza Otto Novembre Milano"
+  },
+  {
+    "coordinate": [45.4825002, 9.206882799999999],
+    "Indirizzo": "Bike Sharing Via Settembrini Milano"
+  },
+  {
+    "coordinate": [45.484396, 9.200414],
+    "Indirizzo": "Bike Sharing Via Filzi Milano"
+  },
+  {
+    "coordinate": [45.48703889999999, 9.1980899],
+    "Indirizzo": "Bike Sharing Via Gioia, angolo Galvani Milano"
+  },
+  {
+    "coordinate": [45.4726185, 9.2146182],
+    "Indirizzo": "Bike Sharing VIa Castel Morrone 35 Milano"
+  },
+  {
+    "coordinate": [45.4751688, 9.2047806],
+    "Indirizzo": "Bike Sharing P.za Oberdan Milano"
+  },
+  {
+    "coordinate": [45.4705397, 9.210289699999999],
+    "Indirizzo": "Bike Sharing Via F.lli Bandiera 2 Milano"
+  },
+  {
+    "coordinate": [45.4503883, 9.1558888],
+    "Indirizzo": "Bike Sharing Via Modena 15 Milano"
+  },
+  {
+    "coordinate": [45.4676091, 9.2112623],
+    "Indirizzo": "Bike Sharing Piazza Risorgimento lato nord parterre centrale Milano"
+  },
+  {
+    "coordinate": [45.4726185, 9.2146182],
+    "Indirizzo": "Bike Sharing C.so Indipendenza angolo Castel Morrone Milano"
+  },
+  {
+    "coordinate": [45.46473410000001, 9.2113148],
+    "Indirizzo": "Bike Sharing Via Fiamma tra 18 e 20 Milano"
+  },
+  {
+    "coordinate": [45.4618341, 9.212347],
+    "Indirizzo": "Bike Sharing C.so XXII Marzo Milano"
+  },
+  {
+    "coordinate": [45.459511, 9.1930956],
+    "Indirizzo": "Bike Sharing P.za Emilia 1 - ang XXII Marzo Milano"
+  },
+  {
+    "coordinate": [45.4650616, 9.2146977],
+    "Indirizzo": "Bike Sharing F.lli Bronzetti 20 angolo Archimede Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing P.zzale Dateo lato nord su Park Milano"
+  },
+  {
+    "coordinate": [45.4506893, 9.2126416],
+    "Indirizzo": "Bike Sharing Via Muratori angolo Viale Umbria Milano"
+  },
+  {
+    "coordinate": [45.4602605, 9.2077736],
+    "Indirizzo": "Bike Sharing V.le Monte Nero Milano"
+  },
+  {
+    "coordinate": [45.4794013, 9.1668073],
+    "Indirizzo": "Bike Sharing C.so Sempione Milano"
+  },
+  {
+    "coordinate": [45.4583382, 9.213197599999999],
+    "Indirizzo": "Bike Sharing Via Cadore centro piazza Milano"
+  },
+  {
+    "coordinate": [45.4553725, 9.2082652],
+    "Indirizzo": "Bike Sharing Via Lazio angolo via Morosini Milano"
+  },
+  {
+    "coordinate": [45.4532665, 9.2124525],
+    "Indirizzo": "Bike Sharing Viale Cirene angolo Friuli (parterre) Milano"
+  },
+  {
+    "coordinate": [45.4551343, 9.2029982],
+    "Indirizzo": "Bike Sharing V.le Caldara Milano"
+  },
+  {
+    "coordinate": [45.4498683, 9.206662999999999],
+    "Indirizzo": "Bike Sharing Via Lazzaro Papi Milano"
+  },
+  {
+    "coordinate": [45.44789249999999, 9.202575699999999],
+    "Indirizzo": "Bike Sharing Via Crema angolo via Trebbia Milano"
+  },
+  {
+    "coordinate": [45.448764, 9.197005599999999],
+    "Indirizzo": "Bike Sharing Via Ripamonti intersezione Bellezza Milano"
+  },
+  {
+    "coordinate": [45.4485736, 9.189945],
+    "Indirizzo": "Bike Sharing Via Bocconi Milano"
+  },
+  {
+    "coordinate": [45.4476768, 9.186821499999999],
+    "Indirizzo": "Bike Sharing Via Castelbarco di fronte civico 13 Milano"
+  },
+  {
+    "coordinate": [45.44449729999999, 9.1826422],
+    "Indirizzo": "Bike Sharing Via Balilla Milano"
+  },
+  {
+    "coordinate": [45.44889149999999, 9.1799035],
+    "Indirizzo": "Bike Sharing Via Gentilino 1-5 Milano"
+  },
+  {
+    "coordinate": [45.4469248, 9.172904899999999],
+    "Indirizzo": "Bike Sharing Via Segantini marciapiede opposto intersezione lat Milano"
+  },
+  {
+    "coordinate": [45.4474491, 9.1782895],
+    "Indirizzo": "Bike Sharing Via Pavia civici dispari fronte civico 10 Milano"
+  },
+  {
+    "coordinate": [45.4437375, 9.1762564],
+    "Indirizzo": "Bike Sharing Via Sforza angolo Tibadi (parterre) Milano"
+  },
+  {
+    "coordinate": [45.4499181, 9.1724701],
+    "Indirizzo": "Bike Sharing P.zza Arcole marciapiede lato piscina Milano"
+  },
+  {
+    "coordinate": [45.4477772, 9.1666525],
+    "Indirizzo": "Bike Sharing Ripa di Porta Ticinese - Giardini Powell Milano"
+  },
+  {
+    "coordinate": [45.4955855, 9.1941741],
+    "Indirizzo": "Bike Sharing Viale Zara civ.13 angolo via Arese Milano"
+  },
+  {
+    "coordinate": [45.4570664, 9.1680637],
+    "Indirizzo": "Bike Sharing Via Solari Milano"
+  },
+  {
+    "coordinate": [45.4550739, 9.163122399999999],
+    "Indirizzo": "Bike Sharing P.zza del Rosario marciapiede Esselunga Milano"
+  },
+  {
+    "coordinate": [45.45362249999999, 9.1638425],
+    "Indirizzo": "Bike Sharing Via Bergognone area verde Milano"
+  },
+  {
+    "coordinate": [45.458023, 9.161928399999999],
+    "Indirizzo": "Bike Sharing Via Foppa Milano"
+  },
+  {
+    "coordinate": [45.458023, 9.161928399999999],
+    "Indirizzo": "Bike Sharing Via Foppa 17 Milano"
+  },
+  {
+    "coordinate": "",
+    "Indirizzo": "Bike Sharing Via Keplero Milano"
+  },
+  {
+    "coordinate": [45.4595089, 9.1592986],
+    "Indirizzo": "Bike Sharing P.zza Vesuvio uffici postali lato bus Milano"
+  },
+  {
+    "coordinate": [45.4634856, 9.1636464],
+    "Indirizzo": "Bike Sharing Via Andrea Verga Milano"
+  },
+  {
+    "coordinate": [45.4633106, 9.157360299999999],
+    "Indirizzo": "Bike Sharing Via Elba 26 Milano"
+  },
+  {
+    "coordinate": [45.4670877, 9.1596031],
+    "Indirizzo": "Bike Sharing Via Cherubini 3-4 (parterre) Milano"
+  },
+  {
+    "coordinate": [45.4670565, 9.155379],
+    "Indirizzo": "Bike Sharing Via Buonarroti 4 Milano"
+  },
+  {
+    "coordinate": [45.4711123, 9.1653555],
+    "Indirizzo": "Bike Sharing Via Pagano / Burchiello Milano"
+  },
+  {
+    "coordinate": [45.4700862, 9.1554503],
+    "Indirizzo": "Bike Sharing Via Buonarroti angolo piazza Buonarroti (parterre) Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing L.go V Alpini Milano"
+  },
+  {
+    "coordinate": [45.4714691, 9.168498999999999],
+    "Indirizzo": "Bike Sharing P.zza Giovannoi XXIII angolo via Monti Milano"
+  },
+  {
+    "coordinate": [45.4754815, 9.1683305],
+    "Indirizzo": "Bike Sharing Via Canova Milano"
+  },
+  {
+    "coordinate": [45.4794013, 9.1668073],
+    "Indirizzo": "Bike Sharing C.so Sempione Milano"
+  },
+  {
+    "coordinate": [45.47833079999999, 9.172948],
+    "Indirizzo": "Bike Sharing Via Melzi d'Eril Milano"
+  },
+  {
+    "coordinate": [45.480208, 9.182436599999999],
+    "Indirizzo": "Bike Sharing Bastioni P.ta Volta Milano"
+  },
+  {
+    "coordinate": [45.4780371, 9.1764074],
+    "Indirizzo": "Bike Sharing Via Cesariano Milano"
+  },
+  {
+    "coordinate": [45.4810272, 9.172271],
+    "Indirizzo": "Bike Sharing Via Alfredo Albertini Milano"
+  },
+  {
+    "coordinate": [45.4816023, 9.1780739],
+    "Indirizzo": "Bike Sharing Via Paolo Sarpi Milano"
+  },
+  {
+    "coordinate": [45.4814807, 9.1772318],
+    "Indirizzo": "Bike Sharing P.zza Cimitero Maggiore angolo via Niccolini Milano"
+  },
+  {
+    "coordinate": [45.4518995, 9.184519],
+    "Indirizzo": "Bike Sharing Via Col Moschin Milano"
+  },
+  {
+    "coordinate": [45.4867445, 9.1850065],
+    "Indirizzo": "Bike Sharing Via Guglielmo Pepe Milano"
+  },
+  {
+    "coordinate": [45.4854913, 9.1896074],
+    "Indirizzo": "Bike Sharing Via De Castillia Milano"
+  },
+  {
+    "coordinate": [45.4891198, 9.1932124],
+    "Indirizzo": "Bike Sharing Via Pola Milano"
+  },
+  {
+    "coordinate": [34.1545882, -118.1426187],
+    "Indirizzo": "Bike Sharing P.ale Lagosta Milano"
+  },
+  {
+    "coordinate": [45.4871563, 9.2035748],
+    "Indirizzo": "Bike Sharing P.za Luigi di Savoia Milano"
+  },
+  {
+    "coordinate": [45.4907595, 9.1938345],
+    "Indirizzo": "Bike Sharing Via Taramelli Milano"
+  },
+  {
+    "coordinate": [45.4530446, 9.2125671],
+    "Indirizzo": "Bike Sharing Via Friuli 50 Milano"
+  },
+  {
+    "coordinate": [45.4788711, 9.221174399999999],
+    "Indirizzo": "Bike Sharing Piazza Bernini tra via Noe e via Pinturicchio Milano"
+  },
+  {
+    "coordinate": [45.4733961, 9.2194954],
+    "Indirizzo": "Bike Sharing Via Juvara angolo Verrocchio fronte civico 3 Milano"
+  },
+  {
+    "coordinate": [45.47080589999999, 9.2201381],
+    "Indirizzo": "Bike Sharing Via Carnaghi 2 Milano"
+  },
+  {
+    "coordinate": [45.4698828, 9.2219085],
+    "Indirizzo": "Bike Sharing Isola spartitraffico Sidoli - Romagna Milano"
+  },
+  {
+    "coordinate": [45.4642035, 9.189982],
+    "Indirizzo": "Bike Sharing piazzale Leonardo da Vinci lato nord Milano"
+  },
+  {
+    "coordinate": [45.4768957, 9.2251583],
+    "Indirizzo": "Bike Sharing Via Pascoli 53 Milano"
+  }
+]

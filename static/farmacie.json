@@ -1,0 +1,1698 @@
+[
+  {
+    "Indirizzo": "44 DELLE FORZE ARMATE (VIA) MILANO",
+    "coordinate": [45.4631717, 9.1326022]
+  },
+  {
+    "Indirizzo": "74 WASHINGTON GIORGIO (VIA) MILANO",
+    "coordinate": [45.4595383, 9.1544783]
+  },
+  {
+    "Indirizzo": "18 VETTA D'ITALIA (VIA) MILANO",
+    "coordinate": [45.4606326, 9.1574676]
+  },
+  {
+    "Indirizzo": "1 DE ANGELI ERNESTO (PZA) MILANO",
+    "coordinate": [45.4658791, 9.150407]
+  },
+  {
+    "Indirizzo": "12 F.LLI ZANZOTTERA (VIA) MILANO",
+    "coordinate": [45.49295980000001, 9.073200600000002]
+  },
+  {
+    "Indirizzo": "9 MONTI GIOSIA (PZA) MILANO",
+    "coordinate": [45.4757709, 9.088652699999999]
+  },
+  {
+    "Indirizzo": "40 BAGAROTTI MAFFEO (VIA) MILANO",
+    "coordinate": [45.4563178, 9.0912505]
+  },
+  {
+    "Indirizzo": "8 GARIBALDI ANITA (PZA) MILANO",
+    "coordinate": [45.4633488, 9.0872037]
+  },
+  {
+    "Indirizzo": "3 NIKOLAJEVKA (VIA) MILANO",
+    "coordinate": [45.4585835, 9.1061271]
+  },
+  {
+    "Indirizzo": "328 DELLE FORZE ARMATE (VIA) MILANO",
+    "coordinate": [45.4601888, 9.0983548]
+  },
+  {
+    "Indirizzo": "36 DELLE BETULLE (VIA) MILANO",
+    "coordinate": [45.4540841, 9.0791906]
+  },
+  {
+    "Indirizzo": "14 MORGANTINI MARIO (VIA) MILANO",
+    "coordinate": [45.47029329999999, 9.1342149]
+  },
+  {
+    "Indirizzo": "3 MONTE FALTERONA (PZA) MILANO",
+    "coordinate": [45.4735898, 9.140275599999999]
+  },
+  {
+    "Indirizzo": "5 AXUM (PZA) MILANO",
+    "coordinate": [45.4758326, 9.1231485]
+  },
+  {
+    "Indirizzo": "7 VELASQUEZ DIEGO (PLE) MILANO",
+    "coordinate": [45.4678207, 9.140722499999999]
+  },
+  {
+    "Indirizzo": "4 F.LLI ZAVATTARI (PLE) MILANO",
+    "coordinate": [45.4758349, 9.1437261]
+  },
+  {
+    "Indirizzo": "20 ANGELONI LUIGI (VIA) MILANO",
+    "coordinate": [45.5266185, 9.1757485]
+  },
+  {
+    "Indirizzo": "6 LIVIGNO (VIA) MILANO",
+    "coordinate": [45.4984627, 9.179013699999999]
+  },
+  {
+    "Indirizzo": "61 IMBONATI CARLO (VIA) MILANO",
+    "coordinate": [45.5035422, 9.1806856]
+  },
+  {
+    "Indirizzo": "43 ASTESANI ALESSANDRO (VIA) MILANO",
+    "coordinate": [45.5199734, 9.169248999999999]
+  },
+  {
+    "Indirizzo": "5 MURAT GIOACCHINO (VIA) MILANO",
+    "coordinate": [45.4970369, 9.191636599999999]
+  },
+  {
+    "Indirizzo": "14 VAL MAIRA (VIA) MILANO",
+    "coordinate": [45.5090897, 9.1961699]
+  },
+  {
+    "Indirizzo": "239 SUZZANI GIOVANNI (VLE) MILANO",
+    "coordinate": [45.5222616, 9.2064567]
+  },
+  {
+    "Indirizzo": "155 SUZZANI GIOVANNI (VLE) MILANO",
+    "coordinate": [45.5163017, 9.203134]
+  },
+  {
+    "Indirizzo": "33 PALANZONE (VIA) MILANO",
+    "coordinate": [45.51843359999999, 9.192119]
+  },
+  {
+    "Indirizzo": "169 PORPORA NICOLA ANTONIO (VIA) MILANO",
+    "coordinate": [45.4862064, 9.2331896]
+  },
+  {
+    "Indirizzo": "31 RONCHI (VIA) MILANO",
+    "coordinate": [45.4887655, 9.236875399999999]
+  },
+  {
+    "Indirizzo": "87 AMPERE ANDREA MARIA (VIA) MILANO",
+    "coordinate": [45.4858817, 9.2262331]
+  },
+  {
+    "Indirizzo": "7 CIMA CAMILLO E OTTO (VIA) MILANO",
+    "coordinate": [45.4719351, 9.246540800000002]
+  },
+  {
+    "Indirizzo": "4 ABRUZZI (VLE) MILANO",
+    "coordinate": [45.4740829, 9.2175281]
+  },
+  {
+    "Indirizzo": "37 CASORETTO (VIA) MILANO",
+    "coordinate": [45.48927680000001, 9.2309466]
+  },
+  {
+    "Indirizzo": "1 CASORETTO (VIA) MILANO",
+    "coordinate": [45.4888701, 9.2250237]
+  },
+  {
+    "Indirizzo": "2 DENTI FRANCESCO (VIA) MILANO",
+    "coordinate": [45.47546879999999, 9.2240471]
+  },
+  {
+    "Indirizzo": "11 ILLIRICO (VIA) MILANO",
+    "coordinate": [45.4706718, 9.2322318]
+  },
+  {
+    "Indirizzo": "3 MAGLIOCCO VINCENZO (VIA) MILANO",
+    "coordinate": [45.4402269, 9.1837521]
+  },
+  {
+    "Indirizzo": "4 BOIFAVA PIETRO (VIA) MILANO",
+    "coordinate": [45.4267685, 9.1712945]
+  },
+  {
+    "Indirizzo": "25 VOLVINIO (VIA) MILANO",
+    "coordinate": [45.4355711, 9.1837818]
+  },
+  {
+    "Indirizzo": "2 SAPONARO MICHELE (VIA) MILANO",
+    "coordinate": [45.4113595, 9.1726948]
+  },
+  {
+    "Indirizzo": "8 DE RUGGIERO GUIDO (VIA) MILANO",
+    "coordinate": [45.4188086, 9.1745492]
+  },
+  {
+    "Indirizzo": "10 ANGILBERTO II (PZA) MILANO",
+    "coordinate": [45.4371225, 9.2164077]
+  },
+  {
+    "Indirizzo": "24 DEI GUARNERI (VIA) MILANO",
+    "coordinate": [45.4262306, 9.2039075]
+  },
+  {
+    "Indirizzo": "0  MILANO",
+    "coordinate": [45.4671359, 9.207370599999999]
+  },
+  {
+    "Indirizzo": "65 ARBE (VIA) MILANO",
+    "coordinate": [45.4999472, 9.1987621]
+  },
+  {
+    "Indirizzo": "226 MONZA (VLE) MILANO",
+    "coordinate": [45.51308350000001, 9.225009100000001]
+  },
+  {
+    "Indirizzo": "21 PETROCCHI POLICARPO (VIA) MILANO",
+    "coordinate": [45.5029213, 9.2252988]
+  },
+  {
+    "Indirizzo": "2 TOSELLI PIETRO (VIA) MILANO",
+    "coordinate": [45.5002119, 9.2348737]
+  },
+  {
+    "Indirizzo": "48 IGLESIAS (VIA) MILANO",
+    "coordinate": [45.5054443, 9.2336034]
+  },
+  {
+    "Indirizzo": "65 PALMANOVA (VIA) MILANO",
+    "coordinate": [45.49668279999999, 9.2355996]
+  },
+  {
+    "Indirizzo": "1 PIERI MARIO (VIA) MILANO",
+    "coordinate": [45.5074276, 9.2440829]
+  },
+  {
+    "Indirizzo": "9 ZURETTI GIANFRANCO (VIA) MILANO",
+    "coordinate": [45.4919051, 9.2068108]
+  },
+  {
+    "Indirizzo": "1 PELLINI EUGENIO (VIA) MILANO",
+    "coordinate": [45.4958627, 9.2039328]
+  },
+  {
+    "Indirizzo": "9 MAROCHETTI CARLO (VIA) MILANO",
+    "coordinate": [45.4394031, 9.2264505]
+  },
+  {
+    "Indirizzo": "23 SULMONA (VIA) MILANO",
+    "coordinate": [45.4446182, 9.2283634]
+  },
+  {
+    "Indirizzo": "19 PIER LOMBARDO (VIA) MILANO",
+    "coordinate": [45.4538432, 9.2076858]
+  },
+  {
+    "Indirizzo": "4 CUOCO VINCENZO (PLE) MILANO",
+    "coordinate": [45.4508904, 9.2247367]
+  },
+  {
+    "Indirizzo": "10 CICERI VISCONTI LAURA (VIA) MILANO",
+    "coordinate": [45.454524, 9.220229699999999]
+  },
+  {
+    "Indirizzo": "4 BONOMELLI GEREMIA (PZA) MILANO",
+    "coordinate": [45.4413588, 9.2138453]
+  },
+  {
+    "Indirizzo": "8 MECENATE (VIA) MILANO",
+    "coordinate": [45.4562416, 9.2429771]
+  },
+  {
+    "Indirizzo": "4 UNGHERIA (VLE) MILANO",
+    "coordinate": [45.44562, 9.241999999999999]
+  },
+  {
+    "Indirizzo": "113 ROGOREDO (VIA) MILANO",
+    "coordinate": [45.4266248, 9.2510516]
+  },
+  {
+    "Indirizzo": "24 BATTISTOTTI SASSI LUISA (VIA) MILANO",
+    "coordinate": [45.4644355, 9.2279205]
+  },
+  {
+    "Indirizzo": "1 MONTE SUELLO (VIA) MILANO",
+    "coordinate": [45.4638286, 9.2305811]
+  },
+  {
+    "Indirizzo": "1 SMAREGLIA ANTONIO (VIA) MILANO",
+    "coordinate": [45.46641349999999, 9.2327566]
+  },
+  {
+    "Indirizzo": "9 COMPAGNONI GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.46397580000001, 9.221410299999999]
+  },
+  {
+    "Indirizzo": "1 DEL LIRI (VIA) MILANO",
+    "coordinate": [45.4451006, 9.2485014]
+  },
+  {
+    "Indirizzo": "3 PREALPI (PZA) MILANO",
+    "coordinate": [45.4953158, 9.153261299999999]
+  },
+  {
+    "Indirizzo": "15 TRENNO (VIA) MILANO",
+    "coordinate": [45.4860179, 9.1276076]
+  },
+  {
+    "Indirizzo": "10 CHIARELLI LUIGI (VIA) MILANO",
+    "coordinate": [45.491105, 9.1217028]
+  },
+  {
+    "Indirizzo": "3 SCOLARI ROSA (PZA) MILANO",
+    "coordinate": [45.490405, 9.1007544]
+  },
+  {
+    "Indirizzo": "22 VISCONTI ALEX (VIA) MILANO",
+    "coordinate": [45.5029984, 9.1026448]
+  },
+  {
+    "Indirizzo": "1 DEI CIGNOLI (VIA) MILANO",
+    "coordinate": [45.495537, 9.133949]
+  },
+  {
+    "Indirizzo": "29 GOVONE GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.4894583, 9.1670648]
+  },
+  {
+    "Indirizzo": "9 GRIGNA (VIA) MILANO",
+    "coordinate": [45.4935038, 9.156218299999999]
+  },
+  {
+    "Indirizzo": "18 ALCUINO (VIA) MILANO",
+    "coordinate": [45.4835398, 9.156407699999999]
+  },
+  {
+    "Indirizzo": "55 LESSONA MICHELE (VIA) MILANO",
+    "coordinate": [45.5192437, 9.135364]
+  },
+  {
+    "Indirizzo": "22 PASCARELLA CESARE (VIA) MILANO",
+    "coordinate": [45.51709040000001, 9.1432545]
+  },
+  {
+    "Indirizzo": "1 BARZILAI SALVATORE (VIA) MILANO",
+    "coordinate": [45.4520333, 9.1412961]
+  },
+  {
+    "Indirizzo": "16 DEL PETTIROSSO (VIA) MILANO",
+    "coordinate": [45.45702190000001, 9.1210414]
+  },
+  {
+    "Indirizzo": "40 INGANNI ANGELO (VIA) MILANO",
+    "coordinate": [45.4513075, 9.125828199999999]
+  },
+  {
+    "Indirizzo": "42 VIGNOLI TITO (VIA) MILANO",
+    "coordinate": [45.4525741, 9.148166699999999]
+  },
+  {
+    "Indirizzo": "5 FOPPA VINCENZO (VIA) MILANO",
+    "coordinate": [45.4585142, 9.1644217]
+  },
+  {
+    "Indirizzo": "39 PONTI ETTORE (VIA) MILANO",
+    "coordinate": [45.4417712, 9.1540834]
+  },
+  {
+    "Indirizzo": "36 FAMAGOSTA (VLE) MILANO",
+    "coordinate": [45.436972, 9.161197999999999]
+  },
+  {
+    "Indirizzo": "18 SAN PAOLINO (VIA) MILANO",
+    "coordinate": [45.43082, 9.16433]
+  },
+  {
+    "Indirizzo": "1 DE PRETIS AGOSTINO (VIA) MILANO",
+    "coordinate": [45.4318758, 9.1536613]
+  },
+  {
+    "Indirizzo": "3 NOVARA (VIA) MILANO",
+    "coordinate": [45.4678565, 9.1292276]
+  },
+  {
+    "Indirizzo": "2 RASORI GIOVANNI (VIA) MILANO",
+    "coordinate": [45.46769940000001, 9.1642311]
+  },
+  {
+    "Indirizzo": "2 CHERUBINI FRANCESCO (VIA) MILANO",
+    "coordinate": [45.4666937, 9.1598087]
+  },
+  {
+    "Indirizzo": "5 VERCELLI (CSO) MILANO",
+    "coordinate": [45.4660451, 9.1639419]
+  },
+  {
+    "Indirizzo": "2 ETNA (VIA) MILANO",
+    "coordinate": [45.4617703, 9.155734599999999]
+  },
+  {
+    "Indirizzo": "18 MARGHERA (VIA) MILANO",
+    "coordinate": [45.4673237, 9.1529334]
+  },
+  {
+    "Indirizzo": "2 SANZIO RAFFAELLO (VIA) MILANO",
+    "coordinate": [45.469802, 9.1541497]
+  },
+  {
+    "Indirizzo": "2 RANZONI DANIELE (VLE) MILANO",
+    "coordinate": [45.46747329999999, 9.146216299999999]
+  },
+  {
+    "Indirizzo": "1 PAGLIANO ELEUTERIO (VIA) MILANO",
+    "coordinate": [45.4754392, 9.1477761]
+  },
+  {
+    "Indirizzo": "14 VESUVIO (PZA) MILANO",
+    "coordinate": [45.4589609, 9.160148099999999]
+  },
+  {
+    "Indirizzo": "217 PRIMATICCIO FRANCESCO (VIA) MILANO",
+    "coordinate": [45.4626733, 9.1274935]
+  },
+  {
+    "Indirizzo": "2 FACCIOLI CESARE (VIA) MILANO",
+    "coordinate": [45.4611251, 9.0919151]
+  },
+  {
+    "Indirizzo": "8 POLLAK LEOPOLDO (VIA) MILANO",
+    "coordinate": [45.47290040000001, 9.120281499999999]
+  },
+  {
+    "Indirizzo": "41 CIVITALI MATTEO (VIA) MILANO",
+    "coordinate": [45.4722697, 9.132009799999999]
+  },
+  {
+    "Indirizzo": "75 PARAVIA PIER ALESSANDRO (VIA) MILANO",
+    "coordinate": [45.4737448, 9.1343467]
+  },
+  {
+    "Indirizzo": "6 DOLCI CARLO (VIA) MILANO",
+    "coordinate": [45.47203160000001, 9.143423499999999]
+  },
+  {
+    "Indirizzo": "3 SELINUNTE (PLE) MILANO",
+    "coordinate": [45.4723799, 9.1366009]
+  },
+  {
+    "Indirizzo": "20 ALTAMURA SAVERIO (VIA) MILANO",
+    "coordinate": [45.4699792, 9.1402013]
+  },
+  {
+    "Indirizzo": "22 REMBRANDT (VIA) MILANO",
+    "coordinate": [45.4675507, 9.137877699999999]
+  },
+  {
+    "Indirizzo": "4 DELLE FORZE ARMATE (VIA) MILANO",
+    "coordinate": [45.4636987, 9.1394371]
+  },
+  {
+    "Indirizzo": "31 SARDEGNA (VIA) MILANO",
+    "coordinate": [45.4633664, 9.1525099]
+  },
+  {
+    "Indirizzo": "5 BUONARROTI MICHELANGELO (VIA) MILANO",
+    "coordinate": [45.4675478, 9.1547459]
+  },
+  {
+    "Indirizzo": "5 SAN MICHELE DEL CARSO (VLE) MILANO",
+    "coordinate": [45.465164, 9.1647489]
+  },
+  {
+    "Indirizzo": "27 MONTE ROSA (VIA) MILANO",
+    "coordinate": [45.47298019999999, 9.151536499999999]
+  },
+  {
+    "Indirizzo": "212 DELLE FORZE ARMATE (VIA) MILANO",
+    "coordinate": [45.4607155, 9.112146899999999]
+  },
+  {
+    "Indirizzo": "84 F.LLI ZOIA (VIA) MILANO",
+    "coordinate": [45.47158, 9.10906]
+  },
+  {
+    "Indirizzo": "2 SAINT BON SIMONE (VIA) MILANO",
+    "coordinate": [45.4610165, 9.120224499999999]
+  },
+  {
+    "Indirizzo": "10 DELLE BETULLE (VIA) MILANO",
+    "coordinate": [45.4532025, 9.083631100000002]
+  },
+  {
+    "Indirizzo": "0 TERESIO OLIVELLI (PZA) MILANO",
+    "coordinate": [45.4602956, 9.1166579]
+  },
+  {
+    "Indirizzo": "5 LITTA MODIGNANI ALESSANDRO (VIA) MILANO",
+    "coordinate": [45.5237342, 9.165473]
+  },
+  {
+    "Indirizzo": "9 GASPARRI PIETRO (PZA) MILANO",
+    "coordinate": [45.5261579, 9.1624514]
+  },
+  {
+    "Indirizzo": "34 FORNI GEROLAMO (VIA) MILANO",
+    "coordinate": [45.5252316, 9.1673664]
+  },
+  {
+    "Indirizzo": "13 CASARSA (VIA) MILANO",
+    "coordinate": [45.5248801, 9.1745073]
+  },
+  {
+    "Indirizzo": "12 MONTE SANTO (VLE) MILANO",
+    "coordinate": [45.4801857, 9.193529]
+  },
+  {
+    "Indirizzo": "122 CANDIANI GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.50327040000001, 9.162486]
+  },
+  {
+    "Indirizzo": "3 BAUSAN GIOVANNI (PZA) MILANO",
+    "coordinate": [45.5019488, 9.165064]
+  },
+  {
+    "Indirizzo": "28 DEGLI IMBRIANI (VIA) MILANO",
+    "coordinate": [45.4997331, 9.1688326]
+  },
+  {
+    "Indirizzo": "70 CARNEVALI ANTONIO (VIA) MILANO",
+    "coordinate": [45.5030226, 9.170347699999999]
+  },
+  {
+    "Indirizzo": "24 MACIACHINI CARLO (PLE) MILANO",
+    "coordinate": [45.4976016, 9.183964399999999]
+  },
+  {
+    "Indirizzo": "10 AFFORI (VLE) MILANO",
+    "coordinate": [45.5171439, 9.1705732]
+  },
+  {
+    "Indirizzo": "3 ZANOLI ALESSANDRO (VIA) MILANO",
+    "coordinate": [45.5156493, 9.1722705]
+  },
+  {
+    "Indirizzo": "44 ROSSI PELLEGRINO (VIA) MILANO",
+    "coordinate": [45.5105363, 9.1761922]
+  },
+  {
+    "Indirizzo": "6 SAN GLICERIO (VIA) MILANO",
+    "coordinate": [45.5181676, 9.2083629]
+  },
+  {
+    "Indirizzo": "13 LEPONTINA (VIA) MILANO",
+    "coordinate": [45.4933433, 9.1844812]
+  },
+  {
+    "Indirizzo": "1 ARNALDO DA BRESCIA (VIA) MILANO",
+    "coordinate": [45.4901802, 9.1830351]
+  },
+  {
+    "Indirizzo": "19 THAON DI REVEL GENOVA (VIA) MILANO",
+    "coordinate": [45.4930364, 9.188157499999999]
+  },
+  {
+    "Indirizzo": "43 GIOIA MELCHIORRE (VIA) MILANO",
+    "coordinate": [45.4869276, 9.1976213]
+  },
+  {
+    "Indirizzo": "25 PORRO LAMBERTENGHI LUIGI (VIA) MILANO",
+    "coordinate": [45.4891529, 9.1886017]
+  },
+  {
+    "Indirizzo": "19 POLA (VIA) MILANO",
+    "coordinate": [45.4890804, 9.192717199999999]
+  },
+  {
+    "Indirizzo": "1 ARCHINTO CARLO (PLE) MILANO",
+    "coordinate": [45.48819520000001, 9.1873106]
+  },
+  {
+    "Indirizzo": "145 ZARA (VLE) MILANO",
+    "coordinate": [45.5007805, 9.1969655]
+  },
+  {
+    "Indirizzo": "85 MURAT GIOACCHINO (VIA) MILANO",
+    "coordinate": [45.502624, 9.1893107]
+  },
+  {
+    "Indirizzo": "36 AIROLO (VIA) MILANO",
+    "coordinate": [45.5020809, 9.1928482]
+  },
+  {
+    "Indirizzo": "18 SUZZANI GIOVANNI (VLE) MILANO",
+    "coordinate": [45.5065927, 9.1984222]
+  },
+  {
+    "Indirizzo": "15 DE ANGELIS MICHELE (VIA) MILANO",
+    "coordinate": [45.5067444, 9.193371299999999]
+  },
+  {
+    "Indirizzo": "74 TESTI FULVIO (VLE) MILANO",
+    "coordinate": [45.5085863, 9.202369299999999]
+  },
+  {
+    "Indirizzo": "273 SUZZANI GIOVANNI (VLE) MILANO",
+    "coordinate": [45.5263129, 9.2082459]
+  },
+  {
+    "Indirizzo": "1 MONTE ROTONDO (VIA) MILANO",
+    "coordinate": [45.5152486, 9.194087099999999]
+  },
+  {
+    "Indirizzo": "13 ORNATO LUIGI (VIA) MILANO",
+    "coordinate": [45.5158238, 9.191008499999999]
+  },
+  {
+    "Indirizzo": "2 VIVIANI VINCENZO (VIA) MILANO",
+    "coordinate": [45.4816707, 9.1973839]
+  },
+  {
+    "Indirizzo": "0 FF SS PORTA GARIBALDI (STZ) MILANO",
+    "coordinate": [45.48430459999999, 9.187680199999999]
+  },
+  {
+    "Indirizzo": "3 CIAIA IGNAZIO (VIA) MILANO",
+    "coordinate": [45.5023267, 9.1760212]
+  },
+  {
+    "Indirizzo": "173 BOVISASCA (VIA) MILANO",
+    "coordinate": [45.51586349999999, 9.1550294]
+  },
+  {
+    "Indirizzo": "1 STRADIVARI ANTONIO (VIA) MILANO",
+    "coordinate": [45.484374, 9.215778499999999]
+  },
+  {
+    "Indirizzo": "4 BUENOS AIRES (CSO) MILANO",
+    "coordinate": [45.4788315, 9.2064717]
+  },
+  {
+    "Indirizzo": "18 DELLE RIMEMBRANZE DI LAMBRATE (VLE) MILANO",
+    "coordinate": [45.4821996, 9.2403523]
+  },
+  {
+    "Indirizzo": "6 CASTEL MORRONE (VIA) MILANO",
+    "coordinate": [45.4691643, 9.215054799999999]
+  },
+  {
+    "Indirizzo": "7 PLEBISCITI (CSO) MILANO",
+    "coordinate": [45.4681781, 9.2186594]
+  },
+  {
+    "Indirizzo": "65 LOMBARDIA (VLE) MILANO",
+    "coordinate": [45.4868993, 9.2233424]
+  },
+  {
+    "Indirizzo": "148 PORPORA NICOLA ANTONIO (VIA) MILANO",
+    "coordinate": [45.4859897, 9.2307129]
+  },
+  {
+    "Indirizzo": "30 PACINI GIOVANNI (VIA) MILANO",
+    "coordinate": [45.4821453, 9.2294998]
+  },
+  {
+    "Indirizzo": "14 GORINI PAOLO (PLE) MILANO",
+    "coordinate": [45.4736876, 9.230635099999999]
+  },
+  {
+    "Indirizzo": "15 GUARDI FRANCESCO (PZA) MILANO",
+    "coordinate": [45.4705251, 9.2270442]
+  },
+  {
+    "Indirizzo": "25 ROMAGNA (VLE) MILANO",
+    "coordinate": [45.4721164, 9.2233564]
+  },
+  {
+    "Indirizzo": "1 PIOLA GABRIO (PLE) MILANO",
+    "coordinate": [45.4798137, 9.2231506]
+  },
+  {
+    "Indirizzo": "1 SANSOVINO (VIA) MILANO",
+    "coordinate": [45.4792302, 9.217538099999999]
+  },
+  {
+    "Indirizzo": "23 ABRUZZI (VLE) MILANO",
+    "coordinate": [45.4772763, 9.2168116]
+  },
+  {
+    "Indirizzo": "25 MODENA GUSTAVO (VIA) MILANO",
+    "coordinate": [45.4709304, 9.215610999999999]
+  },
+  {
+    "Indirizzo": "18 MENOTTI CIRO (VIA) MILANO",
+    "coordinate": [45.470917, 9.2133773]
+  },
+  {
+    "Indirizzo": "42 REGINA GIOVANNA (VLE) MILANO",
+    "coordinate": [45.4730054, 9.2142304]
+  },
+  {
+    "Indirizzo": "1 STRADELLA ALESSANDRO (VIA) MILANO",
+    "coordinate": [45.478015, 9.215022]
+  },
+  {
+    "Indirizzo": "4 MATTEUCCI CARLO (VIA) MILANO",
+    "coordinate": [45.4810621, 9.216572]
+  },
+  {
+    "Indirizzo": "3 PICCINNI NICOLA (VIA) MILANO",
+    "coordinate": [45.48334879999999, 9.214228499999999]
+  },
+  {
+    "Indirizzo": "55 BUENOS AIRES (CSO) MILANO",
+    "coordinate": [45.4788315, 9.2064717]
+  },
+  {
+    "Indirizzo": "11 PLINIO CAIO SECONDO (VIA) MILANO",
+    "coordinate": [45.479299, 9.212879]
+  },
+  {
+    "Indirizzo": "2 CAIAZZO (PZA) MILANO",
+    "coordinate": [45.4848438, 9.2095219]
+  },
+  {
+    "Indirizzo": "39 VITRUVIO (VIA) MILANO",
+    "coordinate": [45.48221969999999, 9.206790900000001]
+  },
+  {
+    "Indirizzo": "15 SPALLANZANI LAZZARO (VIA) MILANO",
+    "coordinate": [45.47687699999999, 9.208236099999999]
+  },
+  {
+    "Indirizzo": "12 MALPIGHI MARCELLO (VIA) MILANO",
+    "coordinate": [45.4748043, 9.207938]
+  },
+  {
+    "Indirizzo": "1 BELLOTTI FELICE (VIA) MILANO",
+    "coordinate": [45.4708135, 9.207117]
+  },
+  {
+    "Indirizzo": "29 CASTALDI PANFILO (VIA) MILANO",
+    "coordinate": [45.476462, 9.203745999999999]
+  },
+  {
+    "Indirizzo": "40 AMADEO GIAN ANTONIO (VIA) MILANO",
+    "coordinate": [45.470894, 9.23453]
+  },
+  {
+    "Indirizzo": "72 PACINI GIOVANNI (VIA) MILANO",
+    "coordinate": [45.484175, 9.235166399999999]
+  },
+  {
+    "Indirizzo": "8 UDINE (PLE) MILANO",
+    "coordinate": [45.49141059999999, 9.2374397]
+  },
+  {
+    "Indirizzo": "152 PALMANOVA (VIA) MILANO",
+    "coordinate": [45.5034857, 9.2464176]
+  },
+  {
+    "Indirizzo": "36 CRESCENZAGO (VIA) MILANO",
+    "coordinate": [45.4893853, 9.2419231]
+  },
+  {
+    "Indirizzo": "1 PORDENONE (VIA) MILANO",
+    "coordinate": [45.4899732, 9.233684300000002]
+  },
+  {
+    "Indirizzo": "29 ROMBON (VIA) MILANO",
+    "coordinate": [45.4864062, 9.2408974]
+  },
+  {
+    "Indirizzo": "11 GROSSICH ANTONIO (VIA) MILANO",
+    "coordinate": [45.4818856, 9.234127899999999]
+  },
+  {
+    "Indirizzo": "2 MURANI ORESTE (LGO) MILANO",
+    "coordinate": [45.4730303, 9.235194]
+  },
+  {
+    "Indirizzo": "36 BUENOS AIRES (CSO) MILANO",
+    "coordinate": [45.4788315, 9.2064717]
+  },
+  {
+    "Indirizzo": "14 MAIOCCHI ACHILLE (VIA) MILANO",
+    "coordinate": [45.4751133, 9.2132867]
+  },
+  {
+    "Indirizzo": "11 VITRUVIO (VIA) MILANO",
+    "coordinate": [45.4810885, 9.208886399999999]
+  },
+  {
+    "Indirizzo": "39 BUENOS AIRES (CSO) MILANO",
+    "coordinate": [45.4788315, 9.2064717]
+  },
+  {
+    "Indirizzo": "11 PLINIO CAIO SECONDO (VIA) MILANO",
+    "coordinate": [45.479299, 9.212879]
+  },
+  {
+    "Indirizzo": "4 OBERDAN GUGLIELMO (PZA) MILANO",
+    "coordinate": [45.4742258, 9.2067523]
+  },
+  {
+    "Indirizzo": "1 BIXIO NINO (VIA) MILANO",
+    "coordinate": [45.4726485, 9.2143991]
+  },
+  {
+    "Indirizzo": "37 MEDA GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.4412494, 9.1789381]
+  },
+  {
+    "Indirizzo": "61 PEZZOTTI GIOVANNI (VIA) MILANO",
+    "coordinate": [45.4384051, 9.183631]
+  },
+  {
+    "Indirizzo": "22 BORDIGHERA (VIA) MILANO",
+    "coordinate": [45.4409555, 9.1736596]
+  },
+  {
+    "Indirizzo": "1 SAN GOTTARDO (CSO) MILANO",
+    "coordinate": [45.45180300000001, 9.180273999999999]
+  },
+  {
+    "Indirizzo": "2 LAGRANGE GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.4489249, 9.1791603]
+  },
+  {
+    "Indirizzo": "22 TIBALDI (VLE) MILANO",
+    "coordinate": [45.4433173, 9.178811099999999]
+  },
+  {
+    "Indirizzo": "50 TIBALDI (VLE) MILANO",
+    "coordinate": [45.4441077, 9.182903399999999]
+  },
+  {
+    "Indirizzo": "1 PAVIA (VIA) MILANO",
+    "coordinate": [45.4471524, 9.1793006]
+  },
+  {
+    "Indirizzo": "20 BARRILI ANTON GIULIO (VIA) MILANO",
+    "coordinate": [45.43387209999999, 9.1775167]
+  },
+  {
+    "Indirizzo": "4 MONTEGANI LODOVICO (VIA) MILANO",
+    "coordinate": [45.4368871, 9.1780689]
+  },
+  {
+    "Indirizzo": "33 BOIFAVA PIETRO (VIA) MILANO",
+    "coordinate": [45.427, 9.17391]
+  },
+  {
+    "Indirizzo": "3 RENZO E LUCIA (VIA) MILANO",
+    "coordinate": [45.4364838, 9.1727628]
+  },
+  {
+    "Indirizzo": "34 SAPONARO MICHELE (VIA) MILANO",
+    "coordinate": [45.4070605, 9.1739585]
+  },
+  {
+    "Indirizzo": "108 RIPAMONTI GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.4398728, 9.1997644]
+  },
+  {
+    "Indirizzo": "2 DI PORTA LODOVICA (PLE) MILANO",
+    "coordinate": [45.4521832, 9.1858641]
+  },
+  {
+    "Indirizzo": "23 BLIGNY (VLE) MILANO",
+    "coordinate": [45.4510333, 9.1923935]
+  },
+  {
+    "Indirizzo": "47 BLIGNY (VLE) MILANO",
+    "coordinate": [45.4510759, 9.1964528]
+  },
+  {
+    "Indirizzo": "17 CREMA (VIA) MILANO",
+    "coordinate": [45.3597399, 9.6620935]
+  },
+  {
+    "Indirizzo": "24 PIACENZA (VIA) MILANO",
+    "coordinate": [45.4491937, 9.205631600000002]
+  },
+  {
+    "Indirizzo": "2 BELLEZZA GIOVANNI (VIA) MILANO",
+    "coordinate": [45.4487726, 9.1969425]
+  },
+  {
+    "Indirizzo": "8 F.LLI FRASCHINI (VIA) MILANO",
+    "coordinate": [45.4181586, 9.1780987]
+  },
+  {
+    "Indirizzo": "27 MEDEGHINO (VIA) MILANO",
+    "coordinate": [45.43092799999999, 9.1797041]
+  },
+  {
+    "Indirizzo": "56 ANTONINI GIACOMO (VIA) MILANO",
+    "coordinate": [45.437098, 9.1959226]
+  },
+  {
+    "Indirizzo": "22 VAL DI SOLE (VIA) MILANO",
+    "coordinate": [45.4300065, 9.203624999999999]
+  },
+  {
+    "Indirizzo": "2 ALAMANNI LUIGI (VIA) MILANO",
+    "coordinate": [45.43427699999999, 9.200699499999999]
+  },
+  {
+    "Indirizzo": "7 MONTE GRAPPA (VLE) MILANO",
+    "coordinate": [45.4806183, 9.1887726]
+  },
+  {
+    "Indirizzo": "6 CINQUE GIORNATE (PZA) MILANO",
+    "coordinate": [45.4615933, 9.207080999999999]
+  },
+  {
+    "Indirizzo": "37 MONTE NERO (VLE) MILANO",
+    "coordinate": [45.4570302, 9.205032899999999]
+  },
+  {
+    "Indirizzo": "59 MONTE NERO (VLE) MILANO",
+    "coordinate": [45.4595006, 9.2067701]
+  },
+  {
+    "Indirizzo": "5 LEGA LOMBARDA (PZA) MILANO",
+    "coordinate": [45.47806569999999, 9.1802292]
+  },
+  {
+    "Indirizzo": "32 CANONICA LUIGI (VIA) MILANO",
+    "coordinate": [45.4790109, 9.174518899999999]
+  },
+  {
+    "Indirizzo": "6 CANONICA LUIGI (VIA) MILANO",
+    "coordinate": [45.4778373, 9.1769255]
+  },
+  {
+    "Indirizzo": "16 MASCHERONI LORENZO (VIA) MILANO",
+    "coordinate": [45.4700761, 9.165459300000002]
+  },
+  {
+    "Indirizzo": "43 CONI ZUGNA (VLE) MILANO",
+    "coordinate": [45.4572779, 9.1693324]
+  },
+  {
+    "Indirizzo": "2 DEL TRICOLORE (PZA) MILANO",
+    "coordinate": [45.4675703, 9.2062835]
+  },
+  {
+    "Indirizzo": "19 AUSONIO (VIA) MILANO",
+    "coordinate": [45.4581703, 9.1723147]
+  },
+  {
+    "Indirizzo": "1 SAN VINCENZO (VIA) MILANO",
+    "coordinate": [45.4586623, 9.1772916]
+  },
+  {
+    "Indirizzo": "12 SAN VITTORE (VIA) MILANO",
+    "coordinate": [45.4630504, 9.1719586]
+  },
+  {
+    "Indirizzo": "23 GENOVA (CSO) MILANO",
+    "coordinate": [44.4056499, 8.946256]
+  },
+  {
+    "Indirizzo": "27 GENOVA (CSO) MILANO",
+    "coordinate": [45.4563752, 9.174451699999999]
+  },
+  {
+    "Indirizzo": "50 DI PORTA TICINESE (CSO) MILANO",
+    "coordinate": [45.4567531, 9.180763299999999]
+  },
+  {
+    "Indirizzo": "98 DI PORTA TICINESE (CSO) MILANO",
+    "coordinate": [45.453685, 9.180244000000002]
+  },
+  {
+    "Indirizzo": "68 DI PORTA ROMANA (CSO) MILANO",
+    "coordinate": [45.4570259, 9.1938631]
+  },
+  {
+    "Indirizzo": "2 VAINA EUGENIO (VIA) MILANO",
+    "coordinate": [45.4530045, 9.200475599999999]
+  },
+  {
+    "Indirizzo": "1 SAN CALIMERO (VIA) MILANO",
+    "coordinate": [45.4574177, 9.1933758]
+  },
+  {
+    "Indirizzo": "2 LAMARMORA ALFONSO (VIA) MILANO",
+    "coordinate": [45.4560735, 9.1964659]
+  },
+  {
+    "Indirizzo": "38 DI PORTA VITTORIA (CSO) MILANO",
+    "coordinate": [45.4621625, 9.2038318]
+  },
+  {
+    "Indirizzo": "2 SENATO (VIA) MILANO",
+    "coordinate": [45.4690921, 9.199237799999999]
+  },
+  {
+    "Indirizzo": "49 GARIBALDI GIUSEPPE (CSO) MILANO",
+    "coordinate": [45.4661501, 9.1800866]
+  },
+  {
+    "Indirizzo": "22 DELLA MOSCOVA (VIA) MILANO",
+    "coordinate": [45.4764634, 9.1919544]
+  },
+  {
+    "Indirizzo": "25 SOLFERINO (VIA) MILANO",
+    "coordinate": [45.4780336, 9.1879908]
+  },
+  {
+    "Indirizzo": "1 LA FOPPA (LGO) MILANO",
+    "coordinate": [45.4785194, 9.1846055]
+  },
+  {
+    "Indirizzo": "18 SAN MARCO (VIA) MILANO",
+    "coordinate": [45.4751077, 9.188614099999999]
+  },
+  {
+    "Indirizzo": "22 PONTACCIO (VIA) MILANO",
+    "coordinate": [45.4722484, 9.1842232]
+  },
+  {
+    "Indirizzo": "5 CAVOUR (PZA) MILANO",
+    "coordinate": [45.4729519, 9.1953374]
+  },
+  {
+    "Indirizzo": "83 GARIBALDI GIUSEPPE (CSO) MILANO",
+    "coordinate": [45.4682129, 9.1822582]
+  },
+  {
+    "Indirizzo": "11 CADORNA LUIGI (PLE) MILANO",
+    "coordinate": [45.46767990000001, 9.1760896]
+  },
+  {
+    "Indirizzo": "96 MAGENTA (CSO) MILANO",
+    "coordinate": [45.4662279, 9.1662745]
+  },
+  {
+    "Indirizzo": "56 MONTI VINCENZO (VIA) MILANO",
+    "coordinate": [45.4720722, 9.1680928]
+  },
+  {
+    "Indirizzo": "26 BOCCACCIO GIOVANNI (VIA) MILANO",
+    "coordinate": [45.4678305, 9.170088999999999]
+  },
+  {
+    "Indirizzo": "6 SAFFI AURELIO (VIA) MILANO",
+    "coordinate": [45.4692829, 9.1716269]
+  },
+  {
+    "Indirizzo": "5 SEMPIONE (CSO) MILANO",
+    "coordinate": [45.4765668, 9.1708938]
+  },
+  {
+    "Indirizzo": "8 SEMPIONE (CSO) MILANO",
+    "coordinate": [45.4773321, 9.1706424]
+  },
+  {
+    "Indirizzo": "21 DEL DUOMO (PZA) MILANO",
+    "coordinate": [45.464318, 9.1928862]
+  },
+  {
+    "Indirizzo": "4 PORRONE BASSANO (VIA) MILANO",
+    "coordinate": [45.4663255, 9.1873425]
+  },
+  {
+    "Indirizzo": "1 DELL' ORSO (VIA) MILANO",
+    "coordinate": [45.4690293, 9.1878533]
+  },
+  {
+    "Indirizzo": "13 FIORI OSCURI (VIA) MILANO",
+    "coordinate": [45.4726592, 9.1893008]
+  },
+  {
+    "Indirizzo": "7 SAN PAOLO (VIA) MILANO",
+    "coordinate": [45.465609, 9.193342999999999]
+  },
+  {
+    "Indirizzo": "28 BIGLI (VIA) MILANO",
+    "coordinate": [45.4697317, 9.1926989]
+  },
+  {
+    "Indirizzo": "14 VENEZIA (CSO) MILANO",
+    "coordinate": [45.4684632, 9.1992049]
+  },
+  {
+    "Indirizzo": "6 FONTANA (PZA) MILANO",
+    "coordinate": [45.4630194, 9.1940729]
+  },
+  {
+    "Indirizzo": "8 AUGUSTO (LGO) MILANO",
+    "coordinate": [45.4628074, 9.1969735]
+  },
+  {
+    "Indirizzo": "16 LARGA (VIA) MILANO",
+    "coordinate": [45.4613407, 9.1916567]
+  },
+  {
+    "Indirizzo": "6 LARGA (VIA) MILANO",
+    "coordinate": [45.462475, 9.1934436]
+  },
+  {
+    "Indirizzo": "19 MONFORTE (CSO) MILANO",
+    "coordinate": [45.4669646, 9.1999595]
+  },
+  {
+    "Indirizzo": "1 VISCONTI DI MODRONE UBERTO (VIA) MILANO",
+    "coordinate": [45.4634973, 9.1988753]
+  },
+  {
+    "Indirizzo": "1 SANTA MARIA BELTRADE (PZA) MILANO",
+    "coordinate": [45.4630824, 9.1864809]
+  },
+  {
+    "Indirizzo": "12 MAZZINI GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.4623706, 9.188314799999999]
+  },
+  {
+    "Indirizzo": "13 SPADARI (VIA) MILANO",
+    "coordinate": [45.4636618, 9.1867691]
+  },
+  {
+    "Indirizzo": "3 MISSORI GIUSEPPE (PZA) MILANO",
+    "coordinate": [45.4604905, 9.1888499]
+  },
+  {
+    "Indirizzo": "14 STAMPA (VIA) MILANO",
+    "coordinate": [45.4603018, 9.181991]
+  },
+  {
+    "Indirizzo": "52 TORINO (VIA) MILANO",
+    "coordinate": [45.46103979999999, 9.1843591]
+  },
+  {
+    "Indirizzo": "2 OREFICI (VIA) MILANO",
+    "coordinate": [45.46404039999999, 9.1882168]
+  },
+  {
+    "Indirizzo": "21 OLMETTO (VIA) MILANO",
+    "coordinate": [45.4588106, 9.184866099999999]
+  },
+  {
+    "Indirizzo": "2 CORRENTI CESARE (VIA) MILANO",
+    "coordinate": [45.4601043, 9.1806532]
+  },
+  {
+    "Indirizzo": "1 CROCEFISSO (VIA) MILANO",
+    "coordinate": [45.4569079, 9.187297899999999]
+  },
+  {
+    "Indirizzo": "24 DI PORTA TICINESE (CSO) MILANO",
+    "coordinate": [45.4583759, 9.1808371]
+  },
+  {
+    "Indirizzo": "11 CARDUCCI GIOSUE' (VIA) MILANO",
+    "coordinate": [45.4661873, 9.1761986]
+  },
+  {
+    "Indirizzo": "17 DANTE ALIGHIERI (VIA) MILANO",
+    "coordinate": [45.4674772, 9.182960999999999]
+  },
+  {
+    "Indirizzo": "12 MERAVIGLI (VIA) MILANO",
+    "coordinate": [45.4659954, 9.182936699999999]
+  },
+  {
+    "Indirizzo": "7 SAN GIOVANNI SUL MURO (VLO) MILANO",
+    "coordinate": [45.4664362, 9.1812259]
+  },
+  {
+    "Indirizzo": "2 CORDUSIO (PZA) MILANO",
+    "coordinate": [45.4651749, 9.1855145]
+  },
+  {
+    "Indirizzo": "1 MERCATO (VIA) MILANO",
+    "coordinate": [45.47084599999999, 9.184254899999999]
+  },
+  {
+    "Indirizzo": "30 BROLETTO (VIA) MILANO",
+    "coordinate": [45.4677123, 9.185789399999999]
+  },
+  {
+    "Indirizzo": "15 VITTORIO EMANUELE (GLL) MILANO",
+    "coordinate": []
+  },
+  {
+    "Indirizzo": "1 PRINCIPESSA CLOTILDE (PLE) MILANO",
+    "coordinate": [45.4796053, 9.1915633]
+  },
+  {
+    "Indirizzo": "3 ARISTIDE CALDERINI (GRD) MILANO",
+    "coordinate": [45.4648999, 9.1770854]
+  },
+  {
+    "Indirizzo": "4 MARTESANA (PLE) MILANO",
+    "coordinate": [45.5081955, 9.2236684]
+  },
+  {
+    "Indirizzo": "325 MONZA (VLE) MILANO",
+    "coordinate": [45.5182468, 9.225194799999999]
+  },
+  {
+    "Indirizzo": "126 MONZA (VLE) MILANO",
+    "coordinate": []
+  },
+  {
+    "Indirizzo": "109 PADOVA (VIA) MILANO",
+    "coordinate": [45.4967621, 9.2305216]
+  },
+  {
+    "Indirizzo": "2 ATENE (VIA) MILANO",
+    "coordinate": [45.4982854, 9.2331556]
+  },
+  {
+    "Indirizzo": "1 CELENTANO BERNARDO (VIA) MILANO",
+    "coordinate": [45.5026093, 9.2389461]
+  },
+  {
+    "Indirizzo": "4 LUSSU EMILIO (VIA) MILANO",
+    "coordinate": [45.5172994, 9.2446398]
+  },
+  {
+    "Indirizzo": "36 ZARA (VLE) MILANO",
+    "coordinate": [45.4919783, 9.1929155]
+  },
+  {
+    "Indirizzo": "10 FILZI FABIO (VIA) MILANO",
+    "coordinate": [45.4830849, 9.199747499999999]
+  },
+  {
+    "Indirizzo": "4 SCHIAPARELLI GIOVANNI (VIA) MILANO",
+    "coordinate": [45.4897205, 9.2052268]
+  },
+  {
+    "Indirizzo": "26 TONALE (VIA) MILANO",
+    "coordinate": [45.4896342, 9.2017668]
+  },
+  {
+    "Indirizzo": "7 LORETO (PLE) MILANO",
+    "coordinate": [45.4924078, 9.2198414]
+  },
+  {
+    "Indirizzo": "2 F.LLI LUMIERE (VIA) MILANO",
+    "coordinate": [45.49131320000001, 9.2125878]
+  },
+  {
+    "Indirizzo": "43 MONZA (VLE) MILANO",
+    "coordinate": [45.4905057, 9.2177995]
+  },
+  {
+    "Indirizzo": "63 MONZA (VLE) MILANO",
+    "coordinate": [45.4931529, 9.2186314]
+  },
+  {
+    "Indirizzo": "19 VARANINI LUIGI (VIA) MILANO",
+    "coordinate": [45.4930431, 9.2160466]
+  },
+  {
+    "Indirizzo": "19 CHAVEZ GIORGIO (VIA) MILANO",
+    "coordinate": [45.4928832, 9.2260841]
+  },
+  {
+    "Indirizzo": "1 DEI TRANSITI (VIA) MILANO",
+    "coordinate": [45.4903731, 9.2218836]
+  },
+  {
+    "Indirizzo": "14 ROVERETO (VIA) MILANO",
+    "coordinate": [45.49508060000001, 9.2196763]
+  },
+  {
+    "Indirizzo": "23 BRIANZA (VLE) MILANO",
+    "coordinate": [45.4878993, 9.2119725]
+  },
+  {
+    "Indirizzo": "4 DUCA D'AOSTA (PZA) MILANO",
+    "coordinate": [45.4837976, 9.2032885]
+  },
+  {
+    "Indirizzo": "19 LAZZARETTO (VIA) MILANO",
+    "coordinate": [45.47983019999999, 9.2036164]
+  },
+  {
+    "Indirizzo": "39 SETTEMBRINI LUIGI (VIA) MILANO",
+    "coordinate": [45.4839066, 9.2080248]
+  },
+  {
+    "Indirizzo": "32 DELLA REPUBBLICA (PZA) MILANO",
+    "coordinate": [45.4801613, 9.1995522]
+  },
+  {
+    "Indirizzo": "40 PONTE NUOVO (VIA) MILANO",
+    "coordinate": [45.5076347, 9.2368458]
+  },
+  {
+    "Indirizzo": "1 COSTANTINO (PZA) MILANO",
+    "coordinate": [45.5098044, 9.2474966]
+  },
+  {
+    "Indirizzo": "135 GIOIA MELCHIORRE (VIA) MILANO",
+    "coordinate": [45.4944569, 9.2064474]
+  },
+  {
+    "Indirizzo": "45 DE MARCHI EMILIO (VIA) MILANO",
+    "coordinate": [45.5021729, 9.210040600000001]
+  },
+  {
+    "Indirizzo": "40 DELLE RIMEMBRANZE DI GRECO (VLE) MILANO",
+    "coordinate": [45.500051, 9.212229599999999]
+  },
+  {
+    "Indirizzo": "177 MONZA (VLE) MILANO",
+    "coordinate": [45.503971, 9.221743]
+  },
+  {
+    "Indirizzo": "0 DELLE PARTENZE (GAL) MILANO",
+    "coordinate": []
+  },
+  {
+    "Indirizzo": "10 LUCANIA (VLE) MILANO",
+    "coordinate": [45.4412591, 9.224596799999999]
+  },
+  {
+    "Indirizzo": "9 ANFOSSI AUGUSTO (VIA) MILANO",
+    "coordinate": [45.4604227, 9.209621]
+  },
+  {
+    "Indirizzo": "29 CADORE (VIA) MILANO",
+    "coordinate": [45.4575008, 9.213027199999999]
+  },
+  {
+    "Indirizzo": "109 UMBRIA (VIA) MILANO",
+    "coordinate": [45.4581139, 9.217056099999999]
+  },
+  {
+    "Indirizzo": "19 UMBRIA (VIA) MILANO",
+    "coordinate": [45.4496479, 9.2114652]
+  },
+  {
+    "Indirizzo": "4 VARSAVIA (VIA) MILANO",
+    "coordinate": [45.4524, 9.22904]
+  },
+  {
+    "Indirizzo": "7 CINQUE GIORNATE (PZA) MILANO",
+    "coordinate": [45.4624971, 9.2078291]
+  },
+  {
+    "Indirizzo": "10 PREMUDA (VLE) MILANO",
+    "coordinate": [45.4635216, 9.2077744]
+  },
+  {
+    "Indirizzo": "23 VENTIDUE MARZO (CSO) MILANO",
+    "coordinate": [45.4623834, 9.2108946]
+  },
+  {
+    "Indirizzo": "20 ARCHIMEDE (VIA) MILANO",
+    "coordinate": [45.465014, 9.211558]
+  },
+  {
+    "Indirizzo": "16 CONCORDIA (CSO) MILANO",
+    "coordinate": [45.4677254, 9.2099025]
+  },
+  {
+    "Indirizzo": "14 INDIPENDENZA (CSO) MILANO",
+    "coordinate": [45.467558, 9.2136742]
+  },
+  {
+    "Indirizzo": "1 SOTTOCORNO PASQUALE (VIA) MILANO",
+    "coordinate": [45.4655273, 9.2077422]
+  },
+  {
+    "Indirizzo": "37 VENTIDUE MARZO (CSO) MILANO",
+    "coordinate": [45.4623323, 9.2176262]
+  },
+  {
+    "Indirizzo": "6 SUSA (PLE) MILANO",
+    "coordinate": [45.4675308, 9.2234056]
+  },
+  {
+    "Indirizzo": "52 VENTIDUE MARZO (CSO) MILANO",
+    "coordinate": [45.4620603, 9.2234986]
+  },
+  {
+    "Indirizzo": "2 STRIGELLI GAETANO (VIA) MILANO",
+    "coordinate": [45.4557588, 9.2173748]
+  },
+  {
+    "Indirizzo": "3 MARTINI FERDINANDO (PLE) MILANO",
+    "coordinate": [45.4573514, 9.2221107]
+  },
+  {
+    "Indirizzo": "11 INSUBRIA (PZA) MILANO",
+    "coordinate": [45.4523243, 9.220917199999999]
+  },
+  {
+    "Indirizzo": "4 VENOSA (VIA) MILANO",
+    "coordinate": [45.4496871, 9.221499200000002]
+  },
+  {
+    "Indirizzo": "5 LODI (PLE) MILANO",
+    "coordinate": [45.44754289999999, 9.210640099999999]
+  },
+  {
+    "Indirizzo": "4 COMACCHIO (VIA) MILANO",
+    "coordinate": [45.4379712, 9.2193179]
+  },
+  {
+    "Indirizzo": "3 BARABINO NICOLO' (VIA) MILANO",
+    "coordinate": [45.43427570000001, 9.2234027]
+  },
+  {
+    "Indirizzo": "11 ROSA GABRIELE (PLE) MILANO",
+    "coordinate": [45.43809150000001, 9.223822199999999]
+  },
+  {
+    "Indirizzo": "10 UNGHERIA (VLE) MILANO",
+    "coordinate": [45.4455478, 9.2433778]
+  },
+  {
+    "Indirizzo": "50 FORLANINI ENRICO (VLE) MILANO",
+    "coordinate": [45.4610807, 9.243906299999999]
+  },
+  {
+    "Indirizzo": "1 TOSCOLANO (VIA) MILANO",
+    "coordinate": [45.45846, 9.24189]
+  },
+  {
+    "Indirizzo": "9 MONTE PALOMBINO (VIA) MILANO",
+    "coordinate": [45.4320546, 9.2441575]
+  },
+  {
+    "Indirizzo": "42 CORSICA (VLE) MILANO",
+    "coordinate": [45.4620151, 9.2287515]
+  },
+  {
+    "Indirizzo": "1 MASOTTO UMBERTO (VIA) MILANO",
+    "coordinate": [45.4670606, 9.2304909]
+  },
+  {
+    "Indirizzo": "13 PAREA CARLO (VIA) MILANO",
+    "coordinate": [45.4433948, 9.2633277]
+  },
+  {
+    "Indirizzo": "62 LODI (CSO) MILANO",
+    "coordinate": [45.4444376, 9.2144783]
+  },
+  {
+    "Indirizzo": "19 LODI (CSO) MILANO",
+    "coordinate": [45.4500087, 9.206328]
+  },
+  {
+    "Indirizzo": "5 FARINI CARLO (VIA) MILANO",
+    "coordinate": [45.48376649999999, 9.181334399999999]
+  },
+  {
+    "Indirizzo": "4 STUPARICH CARLO (PZA) MILANO",
+    "coordinate": [45.482597, 9.143829199999999]
+  },
+  {
+    "Indirizzo": "14 CASTELLI POMPEO (PZA) MILANO",
+    "coordinate": [45.4996642, 9.1510374]
+  },
+  {
+    "Indirizzo": "4 COLLECCHIO (VIA) MILANO",
+    "coordinate": [44.7544688, 10.203833]
+  },
+  {
+    "Indirizzo": "2 PERGINE (VIA) MILANO",
+    "coordinate": [45.4872211, 9.137521999999999]
+  },
+  {
+    "Indirizzo": "111 MAC MAHON (VIA) MILANO",
+    "coordinate": [45.4972713, 9.153223299999999]
+  },
+  {
+    "Indirizzo": "19 BODONI GIAMBATTISTA (VIA) MILANO",
+    "coordinate": [45.4934437, 9.1492379]
+  },
+  {
+    "Indirizzo": "121 VARESINA (VIA) MILANO",
+    "coordinate": [45.50093409999999, 9.141435399999999]
+  },
+  {
+    "Indirizzo": "30 ESPINASSE CARLO (VLE) MILANO",
+    "coordinate": [45.4955429, 9.1435969]
+  },
+  {
+    "Indirizzo": "8 KANT EMANUELE (VIA) MILANO",
+    "coordinate": [45.4960331, 9.1175283]
+  },
+  {
+    "Indirizzo": "5 DELLE ANDE (VIA) MILANO",
+    "coordinate": [45.4942649, 9.1257365]
+  },
+  {
+    "Indirizzo": "23 QUARENGHI GIACOMO (VIA) MILANO",
+    "coordinate": [45.4964691, 9.113666799999999]
+  },
+  {
+    "Indirizzo": "20 NATTA GIULIO (VIA) MILANO",
+    "coordinate": [45.4886856, 9.1186036]
+  },
+  {
+    "Indirizzo": "282 CERTOSA (VLE) MILANO",
+    "coordinate": [45.5021591, 9.1255477]
+  },
+  {
+    "Indirizzo": "19 FALCK ENRICO (VIA) MILANO",
+    "coordinate": [45.49784, 9.104099999999999]
+  },
+  {
+    "Indirizzo": "159 BETTI UGO (VIA) MILANO",
+    "coordinate": [45.4958181, 9.1090445]
+  },
+  {
+    "Indirizzo": "40 BETTI UGO (VIA) MILANO",
+    "coordinate": [45.4925831, 9.111882699999999]
+  },
+  {
+    "Indirizzo": "121 CERTOSA (VLE) MILANO",
+    "coordinate": [45.495034, 9.139991]
+  },
+  {
+    "Indirizzo": "19 PRINCIPE EUGENIO (VIA) MILANO",
+    "coordinate": [45.4897582, 9.1641844]
+  },
+  {
+    "Indirizzo": "3 CANEVA CARLO (PZA) MILANO",
+    "coordinate": [45.487313, 9.1613857]
+  },
+  {
+    "Indirizzo": "3 PIERO DELLA FRANCESCA (VIA) MILANO",
+    "coordinate": [45.4819766, 9.167195999999999]
+  },
+  {
+    "Indirizzo": "38 PIERO DELLA FRANCESCA (VIA) MILANO",
+    "coordinate": [45.4840831, 9.163813]
+  },
+  {
+    "Indirizzo": "14 SARPI FRA' PAOLO (VIA) MILANO",
+    "coordinate": [45.4817772, 9.1788908]
+  },
+  {
+    "Indirizzo": "62 SARPI FRA' PAOLO (VIA) MILANO",
+    "coordinate": [45.4810398, 9.170578599999999]
+  },
+  {
+    "Indirizzo": "1 BAIAMONTI ANTONIO (PLE) MILANO",
+    "coordinate": [45.4821317, 9.181279]
+  },
+  {
+    "Indirizzo": "16 SEI FEBBRAIO (PZA) MILANO",
+    "coordinate": [45.47765099999999, 9.161560200000002]
+  },
+  {
+    "Indirizzo": "12 CASSIODORO (VLE) MILANO",
+    "coordinate": [45.4743365, 9.1600884]
+  },
+  {
+    "Indirizzo": "52 SERRA RENATO (VLE) MILANO",
+    "coordinate": [45.4868294, 9.1467934]
+  },
+  {
+    "Indirizzo": "67 SEMPIONE (CSO) MILANO",
+    "coordinate": [45.4845373, 9.1599887]
+  },
+  {
+    "Indirizzo": "22 RUGGERO DI LAURIA (VIA) MILANO",
+    "coordinate": [45.4868814, 9.1566185]
+  },
+  {
+    "Indirizzo": "3 GAZZOLETTI ANTONIO (VIA) MILANO",
+    "coordinate": [45.517518, 9.1360387]
+  },
+  {
+    "Indirizzo": "3 LOPEZ SABATINO (VIA) MILANO",
+    "coordinate": [45.515287, 9.1453644]
+  },
+  {
+    "Indirizzo": "108 ALDINI ANTONIO (VIA) MILANO",
+    "coordinate": [45.5112561, 9.129211]
+  },
+  {
+    "Indirizzo": "9 COGNE (VIA) MILANO",
+    "coordinate": [45.5164543, 9.128427]
+  },
+  {
+    "Indirizzo": "2 LESSONA MICHELE (VIA) MILANO",
+    "coordinate": [45.5132506, 9.1372088]
+  },
+  {
+    "Indirizzo": "12 UNGARETTI GIUSEPPE (VIA) MILANO",
+    "coordinate": [45.51536919999999, 9.14226]
+  },
+  {
+    "Indirizzo": "1 CINQUE MAGGIO (VIA) MILANO",
+    "coordinate": [45.5094355, 9.1317983]
+  },
+  {
+    "Indirizzo": "39 SILVA GUGLIELMO (VIA) MILANO",
+    "coordinate": [45.4783237, 9.1473324]
+  },
+  {
+    "Indirizzo": "1 SIGNORELLI LUCA (VIA) MILANO",
+    "coordinate": [45.4812951, 9.1737839]
+  },
+  {
+    "Indirizzo": "11 SAN GALDINO (VIA) MILANO",
+    "coordinate": [45.4870308, 9.1666435]
+  },
+  {
+    "Indirizzo": "44 LOMAZZO PAOLO (VIA) MILANO",
+    "coordinate": [45.4838923, 9.1705212]
+  },
+  {
+    "Indirizzo": "40 QUARENGHI GIACOMO (VIA) MILANO",
+    "coordinate": [45.49899389999999, 9.111339599999999]
+  },
+  {
+    "Indirizzo": "13 SAN GIMIGNANO (VLE) MILANO",
+    "coordinate": [45.4569594, 9.1358336]
+  },
+  {
+    "Indirizzo": "30 SAN GIMIGNANO (VLE) MILANO",
+    "coordinate": [45.4590276, 9.1368624]
+  },
+  {
+    "Indirizzo": "96 PRIMATICCIO FRANCESCO (VIA) MILANO",
+    "coordinate": [45.4543423, 9.1331125]
+  },
+  {
+    "Indirizzo": "22 LORENTEGGIO (VIA) MILANO",
+    "coordinate": [45.4541104, 9.1488225]
+  },
+  {
+    "Indirizzo": "7 CATERINA DA FORLI' (VLE) MILANO",
+    "coordinate": [45.459188, 9.14649]
+  },
+  {
+    "Indirizzo": "98 WASHINGTON GIORGIO (VIA) MILANO",
+    "coordinate": [45.4560861, 9.1543923]
+  },
+  {
+    "Indirizzo": "208 LORENTEGGIO (VIA) MILANO",
+    "coordinate": [45.4470669, 9.1271215]
+  },
+  {
+    "Indirizzo": "81 INGANNI ANGELO (VIA) MILANO",
+    "coordinate": [45.4544851, 9.1234214]
+  },
+  {
+    "Indirizzo": "131 GIAMBELLINO (VIA) MILANO",
+    "coordinate": [45.446061, 9.134912]
+  },
+  {
+    "Indirizzo": "150 GIAMBELLINO (VIA) MILANO",
+    "coordinate": [45.4449584, 9.1305315]
+  },
+  {
+    "Indirizzo": "6 SCALABRINI GIOVANNI BATTISTA (LGO) MILANO",
+    "coordinate": [45.4497726, 9.1409346]
+  },
+  {
+    "Indirizzo": "64 GIAMBELLINO (VIA) MILANO",
+    "coordinate": [45.4495218, 9.1446609]
+  },
+  {
+    "Indirizzo": "11 BOLIVAR SIMONE (PZA) MILANO",
+    "coordinate": [45.454754, 9.1518164]
+  },
+  {
+    "Indirizzo": "40 SOLARI ANDREA (VIA) MILANO",
+    "coordinate": [45.4545063, 9.1598557]
+  },
+  {
+    "Indirizzo": "31 BERGOGNONE AMBROGIO DA FOSSANO (VIA) MILANO",
+    "coordinate": [45.3873076, 8.915242899999999]
+  },
+  {
+    "Indirizzo": "11 TROYA CARLO (VLE) MILANO",
+    "coordinate": [45.4514739, 9.1551511]
+  },
+  {
+    "Indirizzo": "56 CONI ZUGNA (VLE) MILANO",
+    "coordinate": [45.4561698, 9.1707045]
+  },
+  {
+    "Indirizzo": "6 COLOMBO CRISTOFORO (CSO) MILANO",
+    "coordinate": [45.4544785, 9.1713015]
+  },
+  {
+    "Indirizzo": "1 COLOMBO CRISTOFORO (CSO) MILANO",
+    "coordinate": [45.4550093, 9.1729285]
+  },
+  {
+    "Indirizzo": "29 RIMINI (VIA) MILANO",
+    "coordinate": [45.4405773, 9.1698132]
+  },
+  {
+    "Indirizzo": "3 LODOVICO IL MORO (VIA) MILANO",
+    "coordinate": [45.4474279, 9.1556645]
+  },
+  {
+    "Indirizzo": "3 MIANI GUGLIELMO (PZA) MILANO",
+    "coordinate": [45.43751, 9.155109999999999]
+  },
+  {
+    "Indirizzo": "163 LODOVICO IL MORO (VIA) MILANO",
+    "coordinate": [45.4408322, 9.129215199999999]
+  },
+  {
+    "Indirizzo": "33 DI PTA TICINESE (RIP) MILANO",
+    "coordinate": [45.4582128, 9.1820776]
+  },
+  {
+    "Indirizzo": "99 DI PTA TICINESE (RIP) MILANO",
+    "coordinate": [45.4490464, 9.1631849]
+  },
+  {
+    "Indirizzo": "3 STAZIONE DI PORTA GENOVA (PLE) MILANO",
+    "coordinate": [45.4534246, 9.170507200000001]
+  },
+  {
+    "Indirizzo": "2 DEI FIORDALISI (VIA) MILANO",
+    "coordinate": [45.4504736, 9.1374043]
+  },
+  {
+    "Indirizzo": "9 PICHI MARIO (VIA) MILANO",
+    "coordinate": [45.4471782, 9.1753085]
+  },
+  {
+    "Indirizzo": "17 TOLSTOI LEONE (VIA) MILANO",
+    "coordinate": [45.4510673, 9.150835599999999]
+  }
+]
