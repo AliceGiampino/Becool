@@ -7,6 +7,15 @@ pandas = "*"
 geocoder = "*"
 sklearn = "*"
 scipy = "*"
+matplotlib = "*"
+time = "*"
+dill = "*"
+sys = "*"
+datetime = "*"
+calendar = "*"
+math = "*"
+
+
 
 
 [requires]
