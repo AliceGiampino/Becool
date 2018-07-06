@@ -271,7 +271,7 @@ var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
 		}); 
 		var marker = L.marker(place.coordinate, {icon: customIcon});
 		if (marker != null){
-			marker_array.push(marker);
+			//marker_array.push(marker);
 			marker.addTo(map_var).bindPopup(place.Indirizzo);
 			}
 		else{$('#bike').text = "Error"}
@@ -293,7 +293,7 @@ var ferrovia = $.getJSON( "./static/train.json", function(json2) {
 		}); 
 		var marker = L.marker(place.coordinate, {icon: customIcon});
 		if (marker != null){
-			marker_array.push(marker);
+			//marker_array.push(marker);
 			marker.addTo(map_var).bindPopup(place.Indirizzo);
 			}
 		else{$('#ferrovia').text = "Error"}
@@ -314,7 +314,7 @@ var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
 		}); 
 		var marker = L.marker(place.coordinate, {icon: customIcon});
 		if (marker != null){
-			marker_array.push(marker);
+			//marker_array.push(marker);
 			marker.addTo(map_var).bindPopup('FARMACIA '+place.Indirizzo);
 			}
 		else{$('#farmacie').text = "Error"}
