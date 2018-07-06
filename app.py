@@ -7,9 +7,9 @@ import sys
 import previsioni as pv
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
-from matplotlib import colors
-matplotlib.use('Agg') 
+#from matplotlib import pyplot as plt
+#from matplotlib import colors
+#matplotlib.use('Agg') 
 import time
 
 app = Flask(__name__)
@@ -54,26 +54,26 @@ def get_prev():
 		lbls = ['Low', 'Limit', 'High']
 		xvalues = [-0.5, 0.5, 1.5]
 
-		plt.yticks([])
-		plt.xticks(xvalues, lbls)
+		#plt.yticks([])
+		#plt.xticks(xvalues, lbls)
 
-		plt.rcParams["axes.grid"] = False
-		plt.imshow([[0.,1.], [0.,1.]], aspect=0.2,
-			  cmap = plt.cm.RdYlGn_r, 
-			  interpolation = 'bicubic',
-			  norm = colors.Normalize(vmin=0.0, vmax=1.0)
-			)
+		#plt.rcParams["axes.grid"] = False
+		#plt.imshow([[0.,1.], [0.,1.]], aspect=0.2,
+		#	  cmap = plt.cm.RdYlGn_r, 
+		#	  interpolation = 'bicubic',
+		#	  norm = colors.Normalize(vmin=0.0, vmax=1.0)
+		#	)
 		
 		
 		p= 0.0
 		k = 0
 		p=prevision*1.0/100
-		plt.axvline(x=p)
+		#plt.axvline(x=p)
 		k = time.time()
 		nome_file = './static/prev%d.png'%k
 		print(nome_file)
-		plt.savefig(nome_file)
-		plt.clf()
+		#plt.savefig(nome_file)
+		#plt.clf()
 		return render_template("try.html", prevision=prevision, location=location, giorno=giorno, mese=mese, dt_string=date_prev, dt_string_limit=dt_string_limit_post, nome_file=nome_file, show_prev=True)
 	
 	else:
