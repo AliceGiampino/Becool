@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 #from matplotlib import pyplot as plt
 #from matplotlib import colors
+#matplotlib.use('Agg') 
 import time
 
 app = Flask(__name__)
