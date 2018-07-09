@@ -1,5 +1,5 @@
 from __future__ import print_function  # In python 2.7
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, url_for
 import requests
 from datetime import datetime, timedelta
 import dill
@@ -7,10 +7,12 @@ import sys
 import previsioni as pv
 import pandas as pd
 import numpy as np
-#from matplotlib import pyplot as plt
-#from matplotlib import colors
-#matplotlib.use('Agg') 
 import time
+import geocoder
+from bokeh.palettes import brewer
+from bokeh.plotting import figure, output_file
+from bokeh.models import Span
+from bokeh.embed import components
 
 app = Flask(__name__)
 app.vars = {}
@@ -18,21 +20,28 @@ app.vars = {}
 
 app.add_url_rule('/assets/<path:filename>', endpoint='assets', view_func=app.send_static_file)
 
+date_time = datetime.now() 
+date_time_limit = datetime.now() + timedelta(days=5)
+dt_string = date_time.strftime('%Y-%m-%d %H:%M:%S')
+dt_string_limit = date_time_limit.strftime('%Y-%m-%d %H:%M:%S')
+
+
 @app.route('/', methods=['GET', 'POST'])
 def get_prev():
 	if request.method == 'POST':
 		result = request.form
 		location = request.values.get('Position')
 		date_prev = str(request.values.get('date'))
-		if 'AM' in date_prev:
-			if '12' in date_prev:
-				date_prev = date_prev.replace('12', '00')
-			date_prev = pd.to_datetime(date_prev).strftime('%Y-%m-%d %H:%M:%S')
-		if 'PM' in date_prev:
-			date_prev = pd.to_datetime(date_prev).strftime('%Y-%m-%d %H:%M:%S')
 		date_time = datetime.strptime(date_prev, '%Y-%m-%d  %H:%M:%S')
 		mese = date_time.month
 		giorno = int(date_time.weekday())
+		
+		loc = geocoder.google(location)
+		k=0
+		while loc.latlng == None and k<15:
+			loc = geocoder.google(location)
+			k+=1
+		cord = loc.latlng
 		
 		df = pv.dataset(location, date_time, giorno, mese)
 
@@ -49,41 +58,38 @@ def get_prev():
 
 		date_time_limit_post = datetime.now() + timedelta(days=5)
 		dt_string_limit_post = date_time_limit_post.strftime('%m/%d/%Y %#I:%M %p')
-		
 
-		lbls = ['Low', 'Limit', 'High']
-		xvalues = [-0.5, 0.5, 1.5]
+		output_file("tools_hover_tooltip_image.html")
 
-		#plt.yticks([])
-		#plt.xticks(xvalues, lbls)
+		ramp = np.array([np.linspace(0, 10, 200)]*20)
 
-		#plt.rcParams["axes.grid"] = False
-		#plt.imshow([[0.,1.], [0.,1.]], aspect=0.2,
-		#	  cmap = plt.cm.RdYlGn_r, 
-		#	  interpolation = 'bicubic',
-		#	  norm = colors.Normalize(vmin=0.0, vmax=1.0)
-		#	)
-		
-		
-		p= 0.0
-		k = 0
-		p=prevision*1.0/100
-		#plt.axvline(x=p)
-		k = time.time()
-		nome_file = './static/prev%d.png'%k
-		print(nome_file)
-		#plt.savefig(nome_file)
-		#plt.clf()
-		return render_template("try.html", prevision=prevision, location=location, giorno=giorno, mese=mese, dt_string=date_prev, dt_string_limit=dt_string_limit_post, nome_file=nome_file, show_prev=True)
-	
+		data = dict(image=[ramp],
+					squared=[ramp**2],
+					pattern=['smooth ramp'],
+					x=[10, 10, 25],
+					y=[20, 20, 5],
+					dw=[20,  20, 10],
+					dh=[10,  10, 25])
+
+		p = figure( x_range=(10, 30), y_range=(20, 30), toolbar_location=None, plot_height=250, tools='hover,wheel_zoom')
+		p.image(source=data, image='image', x='x', y='y', dw='dw', dh='dh', palette='Viridis256') #'Inferno256'
+		p.axis.axis_label = None
+		p.axis.visible = False
+		p.grid.grid_line_color = None
+		p.background_fill_color = None
+
+		p.ray(x=[0],y=[0],length=300, angle=0, color='red', legend="The PM10 prevision is "+str(prevision)+' µg/m3.')
+
+		vline = Span(location=(prevision*1.0*20)/100+10, dimension='height',line_color='red', line_width=3)
+		p.renderers.extend([vline])
+		script, div = components(p)
+		return render_template("try.html", _anchor='prev', prevision=prevision, script=script, div=div, cord=cord, location=location, 
+								giorno=giorno, mese=mese, dt_string=date_prev, dt_string_limit=dt_string_limit_post, show_prev='prev')
 	else:
-		date_time_init = datetime.now()
-		date_time_limit = datetime.now() + timedelta(days=5)
-		dt_string = date_time_init.strftime('%m/%d/%Y %#I:%M %p')
-		dt_string_limit = date_time_limit.strftime('%m/%d/%Y %#I:%M  %p')
+		
 		return render_template('try.html', dt_string=dt_string, dt_string_limit=dt_string_limit, show_prev=False)
 
-
+		
 if __name__ == "__main__":
 	app.run(debug=True)
 

@@ -11,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='assets/css/screen.css')}}">
 	<script src="{{ url_for('static',filename='assets/js/alone/jquery-1.10.2.min.js')}}" type="text/javascript"></script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css" type="text/css" />
+	<script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+                       {{ script | safe }}
 </head>
 <body id="myPage" class="">
 
@@ -19,10 +22,10 @@
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
-  <a href="./static/world.png" class="w3-bar-item w3-button">
+  <a href="./static/world.png" target="_blank" class="w3-bar-item w3-button">
 	<h2>PM10 worldwide</h2>
 	<img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="world.png")}}"> </a>
-  <a href="./static/Europe.jpg" class="w3-bar-item w3-button"><h2>PM10 in Europe</h2>
+  <a href="./static/Europe.jpg" target="_blank" class="w3-bar-item w3-button"><h2>PM10 in Europe</h2>
   <img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="Europe.jpg")}}" ></a>
 
 </nav>
@@ -34,7 +37,7 @@
   <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Author</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#map_id" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Map</a>
+  <a href="#map_leaf" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Map</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
   </div>
   </div>
@@ -78,62 +81,19 @@
 </div>
 
 <!-- Team Container -->
-
-<div class="w3-container w3-padding-64 w3-center" id="team">
- <a href="./static/title.jpg">
- <img src="{{ url_for('static', filename="title.jpg")}}"alt="Title" style="width:45%" class="w3-hover-opacity">
+<div class="w3-container w3-padding-64 w3-center w3-theme-l5" id="title"  >
+ <a href="./static/title.jpg" target="_blank">
+ <img src="{{ url_for('static', filename="becool.png")}}"alt="Title" style="width:45%" class="w3-hover-opacity">
  </a>
- <h2> <br>Prediction of air pollution based on PM10's concentration.</h2>
+ <h2 style="font-family:Palatino Linotype; color:green"> <br>Prediction of air pollution based on PM10's concentration.</h2>
 <br>
-<div>
-<div class="row">
-  <div style='float: left; width: 50%'>
-	<a href="./static/comuni milano.jpg" >
-	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
-	</a>
-	<h2>Provincia di Milano</h2>
-	 <h5>Area of study.</h5>
-  </div>
-  <div style='float: right; width: 50%'>
-    <a href="./static/milcentro.jpg">
-	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
-	  </a>
-	  <h2>Milano</h2>
-	  <h5>Area of study.</h5>
-  </div>
 </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-<div>
-	<div style='float: left; width: 50%'>
-	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle w3-hover-opacity"><br><br>
-	  
-	  <h4>Alice Giampino</h4>
-	  <h6>Statitician & Data Scientist</h6> 
-	</div>
-	<div style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
-	<h4>Model: </h4>
-
-		<p>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
-		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
-		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
-		to the model. Also the previous two days of weather temperature are added (if available).
-		<br>
-		The prediction is done in real time!
-		</p>
-	</div>
-</div>
-</div>
-
 <!-- Work Row -->
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
 <div class="w3-container" style="padding:128px 16px" id="about">
-	<h2 class="w3-center">Prediction of PM10</h2>
-	<p class="w3-center w3-large">The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
+	<h2 class="w3-center" style="font-family:Palatino Linotype">Prediction of PM10</h2>
+	<p class="w3-center w3-large" >The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
 	PM10's concentration have impacts on climate and precipitation that adversely affect human health. <br>
 	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
 	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
@@ -186,40 +146,31 @@
 	</table>
 	</div>
 	
-	
-	<br><br><br>
-	
 </div>
-</div>
-
-<!-- Container -->
-<div class="w3-container" style="position:relative">
-  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
-  style="position:absolute;top:-28px;right:24px">+</a>
 </div>
 
 <!-- Google Maps -->
-<div class="w3-container w3-padding-64 w3-theme-l5">
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Map</span></div>
+<div id="map_leaf"></div>
+<div class="w3-container w3-padding-64 w3-theme-l5" style="padding-left: 20px">
+<div class="w3-padding-16""><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Map</span></div>
 <div class="w3-section">
 <div class="w3-quarter" style='width:300px'>
-	<form action = "/" method="POST">
+	<form action = "" method="POST">
 	<label>Position (es. via Koch, Milano):</label>
 		<input class="w3-input" type="text" name="Position" required>
 		  <div class="form-group">
 	                   <label for="unique_carrier">Date:</label>
                        <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
                         <input type="text" name="date" class="form-control datetimepicker-input" value="{{ dt_string }}" data-target="#datetimepicker1" data-limit="{{ dt_string_limit }}"/>
-						<script>var data = {{dt_string}};
-						console.log(data)
-						</script>
                         <span class="input-group-addon" data-target="#datetimepicker1" data-toggle="datetimepicker">
                             <span class="fa fa-calendar"></span>
                         </span>
                     </div>
                    </div>
                 <div class="form-group">
-                       <input type="submit" value="Go!" class="btn btn-primary float-right" />
+					
+                    <input type="submit" value="Go!" class="btn btn-primary float-right" />
+					
                 </div>
 	</form>
 </div>
@@ -235,28 +186,20 @@
 <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
    crossorigin=""></script>
-<div id="map"></div>
 <br />
-<input type="checkbox" id="bike" class="check" checked>Bike - Sharing
-<br />
-<input type="checkbox" id="ferrovia" class="check" checked>Railway Station
-<br />
-<input type="checkbox" id="farmacia" class="check" checked>Pharmacy
 <br>
-<button id="clearAll">
-  Clear All
-</button>
 <div id="map_id" style="width:100%;height:500px;"></div>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
 
 <script>
-var map_var = L.map('map_id').setView([45.4642700,  9.1895100], 16);
+var map_var = new Map()
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map_var);
-
+if ({{ cord }} != None }} ) {
+	var map_var = L.map('map_id').setView(cord, 16);
+} else {
+	var map_var = L.map('map_id').setView([45.4642700,  9.1895100], 16);
+}
 
 var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
 	   for (var i = 0; i < json1.length; i++) {
@@ -269,10 +212,10 @@ var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
 		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
 		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
 		}); 
-		var marker = L.marker(place.coordinate, {icon: customIcon});
-		if (marker != null){
-			//marker_array.push(marker);
-			marker.addTo(map_var).bindPopup(place.Indirizzo);
+		var marker_bike = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_bike != null){
+			marker_array.push(marker_bike);
+			marker_bike.addTo(map_var).bindPopup(place.Indirizzo);
 			}
 		else{$('#bike').text = "Error"}
 		}
@@ -291,10 +234,10 @@ var ferrovia = $.getJSON( "./static/train.json", function(json2) {
 		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
 		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
 		}); 
-		var marker = L.marker(place.coordinate, {icon: customIcon});
-		if (marker != null){
-			//marker_array.push(marker);
-			marker.addTo(map_var).bindPopup(place.Indirizzo);
+		var marker_train = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_train != null){
+			//marker_array.push(marker_train);
+			marker_train.addTo(map_var).bindPopup(place.Indirizzo);
 			}
 		else{$('#ferrovia').text = "Error"}
 		}
@@ -312,10 +255,10 @@ var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
 		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
 		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
 		}); 
-		var marker = L.marker(place.coordinate, {icon: customIcon});
-		if (marker != null){
-			//marker_array.push(marker);
-			marker.addTo(map_var).bindPopup('FARMACIA '+place.Indirizzo);
+		var marker_pha = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_pha != null){
+			//marker_array.push(marker_pha);
+			marker_pha.addTo(map_var).bindPopup('FARMACIA '+place.Indirizzo);
 			}
 		else{$('#farmacie').text = "Error"}
 		}
@@ -333,32 +276,82 @@ button.on('click', function () {
 </div>
 
 {% if show_prev %}
-<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="prev">
-<div class="w3-container" style="padding:128px 16px" id="about">
-	<h2 class='w3-center'>Air Pollution:</h2>
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id='prev'>
+<script>
+	document.location.hash = '#' + '{{ show_prev }}';
+</script>
+<div class="w3-container" style="padding:128px 16px; font-family:Palatino Linotype">
+	<h2 class='w3-center' style="font-family:Palatino Linotype">Air Pollution:</h2>
 	<div class="w3-center">
-		<p><br>Today the concentration of PM10 is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3 </p>
-		<a href={{ nome_file }}>
-			<img src={{ nome_file }} alt="prediction" style="width:35%" class="w3-circle w3-hover-opacity">
-		</a>
+		<p><br>The concentration of PM10 in your location is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3. </p>
+		<br>
 	</div>
+		<center>	
+			<div class=page>
+			   {{ div | safe }}
+		</div>
+		</center>
 </div>
 </div>
 {% endif %}
 
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
 
+<!-- Author and Model -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Author & Model</span></div>
+<div class="row">
+  <div style='float: left; width: 50%'>
+	<a href="./static/comuni milano.jpg" target="_blank">
+	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
+	</a>
+	<h2 style="font-family:Palatino Linotype">Provincia di Milano</h2>
+	 <h5 style="font-family:Palatino Linotype">Area of study.</h5>
+  </div>
+  <div style='float: right; width: 50%'>
+    <a href="./static/milcentro.jpg" target="_blank">
+	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
+	  </a>
+	  <h2 style="font-family:Palatino Linotype">Milano</h2>
+	  <h5 style="font-family:Palatino Linotype">Area of study.</h5>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+	<div style='float: left; width: 50%'>
+	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle w3-hover-opacity"><br><br>
+	  
+	  <h4 style="font-family:Palatino Linotype">Alice Giampino</h4>
+	  <h6 style="font-family:Palatino Linotype">Statitician & Data Scientist</h6> 
+	</div>
+	<div style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
+	<h4 style="font-family:Palatino Linotype"><br>Model: </h4>
+
+		<p style="font-family:Palatino Linotype"><br>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
+		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
+		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
+		to the model. Also the previous two days of weather temperature are added (if available).
+		<br>
+		The prediction is done in real time!
+		</p>
+	</div>
+</div>
 
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
-  <div class="w3-row">
-    <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact</span></div>
-      <h3>Address</h3>
-      <p>Swing by for a cup of coffee, or whatever.</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Milan, IT</p>
+    <div class="w3-col m5 w3-center" style='margin: auto; float: none'>
+    <div class="w3-padding-16 w3-center"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Contact</span></div>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Milan, IT</p>
       <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +348 3381682</p>
       <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  giampinoalice@gmail.com</p>
     </div>
+	<!--
     <div class="w3-col m7">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
       <div class="w3-section">      
@@ -376,7 +369,7 @@ button.on('click', function () {
 	  </button>
       </form>
     </div>
-  </div>
+	-->
 </div>
 
 <!-- Footer -->
@@ -414,8 +407,8 @@ function openNav() {
 </script>
 
 	<!-- body js -->
-	<script src="{{ url_for('static',filename='assets/js/plugins.min.js')}}" type="text/javascript"></script>
-	<script src="{{ url_for('static',filename='assets/js/main.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static',filename='assets/js/plugins.min1.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static',filename='assets/js/main.min1.js')}}" type="text/javascript"></script>
 
 </body>
 
