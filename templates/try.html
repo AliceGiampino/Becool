@@ -56,9 +56,19 @@
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
   <img <img src="{{ url_for('static', filename="parco_sempion.jpg")}}" alt="Milan" style="width:100%;min-height:100px;max-height:800px;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">What is PM10?</button>
-  </div>
+  <div>
+	  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">What is PM10?</button>
+		</div>
+		<div style="position:bottom:100px;z-index:1;" class="w3-tooltip w3-display-bottomright w3-margin-bottom">
+			<a class="w3-button w3-theme" href="#title">
+			<span class="w3-xlarge">
+			<p style="nearest">Start!</p>
+			<i class="fa fa-chevron-circle-down"></i></span></a>
+		</div>
+	</div>
+</div>
+  
 </div>
 
 <!-- Modal -->
@@ -103,7 +113,7 @@
 	<div align='center' width='80%'>
 	<table width='80%'>
 	
-		<tr>
+	<tr>
 	<td width='33%'>
 		<div  align='center' style="padding-right: 60px; padding-left: 60px">
 			<i class="fa fa-street-view w3-margin-bottom w3-jumbo"></i>
@@ -187,63 +197,96 @@
    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
    crossorigin=""></script>
 <br />
-<br>
+
 <div id="map_id" style="width:100%;height:500px;"></div>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
+<ul>
+	<p  style="font-family:Palatino Linotype"><br>Click the buttons below to switch on/off the icon on the map:</p>
+	<table>
+	<tr>
+	<td>
+    <li><a id="Bike" href="#"><img src="{{ url_for('static', filename="bike_share.png")}}"alt="bike" class="w3-circle w3-hover-opacity w3-quarter" style="width:25%"> Bike
+	</a></li>
+	</td>
+	<td>
+	<li><a id="Railway_Station" href="#"><img src="{{ url_for('static', filename="train.png")}}"alt="train" class="w3-circle w3-hover-opacity w3-quarter" style="width:27%">Railway Station</a></li>
+	</td>
+    <td>
+	<li><a id="Pharmacy" href="#"><img src="{{ url_for('static', filename="phar.png")}}"alt="phar" class="w3-circle w3-hover-opacity w3-quarter" style="width:15%">Pharmacy</a></li>
+	</td>
+	</tr>
+	</table>
+</ul>
+
 
 <script>
-var map_var = new Map()
+//var map_var =L.map('map_id').setView([45.4642700,  9.1895100], 16);
 
-if ({{ cord }} != None }} ) {
-	var map_var = L.map('map_id').setView(cord, 16);
+var coordinate = {{ cord }} 
+console.log(coordinate);
+
+if (coordinate == [45.4642700,  9.1895100]) {
+	console.log('milano');
+	var map_var =L.map('map_id').setView([45.4642700,  9.1895100], 16);
+	
 } else {
-	var map_var = L.map('map_id').setView([45.4642700,  9.1895100], 16);
-}
+	console.log(coordinate);
+	console.log('coordinate');
+	var map_var =L.map('map_id').setView(coordinate, 16);
+	L.marker(coordinate).addTo(map_var).bindPopup('Your location').openPopup()
+	console.log('position');
+};
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map_var);
+
+var group1 = L.featureGroup();
+var group2 = L.featureGroup();
+var group3 = L.featureGroup();
 
 var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
-	   for (var i = 0; i < json1.length; i++) {
-		var place = json1[i];
-		console.log( place );
-		   // Creating a marker and putting it on the map
-		var customIcon = L.icon({
-		iconUrl: './static/bike_share.png',
-		iconSize:     [38, 40], // size of the icon
-		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
-		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
-		}); 
-		var marker_bike = L.marker(place.coordinate, {icon: customIcon});
-		if (marker_bike != null){
-			marker_array.push(marker_bike);
-			marker_bike.addTo(map_var).bindPopup(place.Indirizzo);
-			}
-		else{$('#bike').text = "Error"}
-		}
-	 
-});
+           for (var i = 0; i < json1.length; i++) {
+            var place = json1[i];
+            console.log( place );
+               // Creating a marker and putting it on the map
+            var customIcon = L.icon({
+            iconUrl: './static/bike_share.png',
+            iconSize:     [38, 40], // size of the icon
+            iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+            popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+            }); 
+            var marker_bike = L.marker(place.coordinate, {icon: customIcon});
+            if (marker_bike != null){
+                //marker_array.push(marker_bike);
+                marker_bike.addTo(group1).bindPopup(place.Indirizzo);
+                } else{$('#bike').text = "Error"}
+            }
 
+    });
+	
+    var ferrovia = $.getJSON( "./static/train.json", function(json2) {
+           for (var i = 0; i < json2.length; i++) {
+            var place = json2[i];
+            console.log( place );
+               // Creating a marker and putting it on the map
+            var customIcon = L.icon({
+            iconUrl: './static/train.png',
+            iconSize:     [38, 40], // size of the icon
+            iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+            popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+            }); 
+            var marker_train = L.marker(place.coordinate, {icon: customIcon});
+            if (marker_train != null){
+                //marker_array.push(marker_train);
+                marker_train.addTo(group2).bindPopup(place.Indirizzo);
+                }
+            else{$('#ferrovia').text = "Error"}
+            }
 
-var ferrovia = $.getJSON( "./static/train.json", function(json2) {
-	   for (var i = 0; i < json2.length; i++) {
-		var place = json2[i];
-		console.log( place );
-		   // Creating a marker and putting it on the map
-		var customIcon = L.icon({
-		iconUrl: './static/train.png',
-		iconSize:     [38, 40], // size of the icon
-		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
-		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
-		}); 
-		var marker_train = L.marker(place.coordinate, {icon: customIcon});
-		if (marker_train != null){
-			//marker_array.push(marker_train);
-			marker_train.addTo(map_var).bindPopup(place.Indirizzo);
-			}
-		else{$('#ferrovia').text = "Error"}
-		}
-	 
-});
-
+    });
+	
 var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
 	   for (var i = 0; i < json3.length; i++) {
 		var place = json3[i];
@@ -258,21 +301,51 @@ var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
 		var marker_pha = L.marker(place.coordinate, {icon: customIcon});
 		if (marker_pha != null){
 			//marker_array.push(marker_pha);
-			marker_pha.addTo(map_var).bindPopup('FARMACIA '+place.Indirizzo);
+			marker_pha.addTo(group3).bindPopup('FARMACIA '+place.Indirizzo);
 			}
 		else{$('#farmacie').text = "Error"}
 		}
 	 
 });
 
-var button = new L.Control.Button('Click me');
-button.addTo(map_var);
-button.on('click', function () {
-    alert('you clicked the button!');
+map_var.addLayer(group1);
+map_var.addLayer(group2);
+map_var.addLayer(group3);
+
+$("#Bike").click(function(event) {
+    event.preventDefault();
+    if(map_var.hasLayer(group1)) {
+		$(this).removeClass('selected');
+        map_var.removeLayer(group1);
+    } else {
+		map_var.addLayer(group1);                 
+        $(this).addClass('selected');
+   }
 });
+
+$("#Railway_Station").click(function(event) {
+    event.preventDefault();
+    if(map_var.hasLayer(group2)) {
+		$(this).removeClass('selected');
+        map_var.removeLayer(group2);
+    } else {
+		map_var.addLayer(group2);                 
+        $(this).addClass('selected');
+   }
+});
+
+$("#Pharmacy").click(function(event) {
+    event.preventDefault();
+    if(map_var.hasLayer(group3)) {
+		$(this).removeClass('selected');
+        map_var.removeLayer(group3);
+    } else {
+		map_var.addLayer(group3);                 
+        $(this).addClass('selected');
+   }
+});
+
 </script>
-
-
 </div>
 
 {% if show_prev %}

@@ -83,11 +83,12 @@ def get_prev():
 		vline = Span(location=(prevision*1.0*20)/100+10, dimension='height',line_color='red', line_width=3)
 		p.renderers.extend([vline])
 		script, div = components(p)
-		return render_template("try.html", _anchor='prev', prevision=prevision, script=script, div=div, cord=cord, location=location, 
+		posut = location
+		return render_template("try.html", _anchor='prev', prevision=prevision, script=script, div=div, posut = posut, cord=cord, location=location, 
 								giorno=giorno, mese=mese, dt_string=date_prev, dt_string_limit=dt_string_limit_post, show_prev='prev')
 	else:
-		
-		return render_template('try.html', dt_string=dt_string, dt_string_limit=dt_string_limit, show_prev=False)
+		cord = [45.4642700,  9.1895100]
+		return render_template('try.html', dt_string=dt_string, cord=cord, dt_string_limit=dt_string_limit, show_prev=False)
 
 		
 if __name__ == "__main__":
