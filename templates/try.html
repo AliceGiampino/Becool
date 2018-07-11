@@ -19,26 +19,26 @@
 
 <!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text" style="font-family:Maiandra Gd, Trebuchet MS, Arial; color:#16b102">Close
     <i class="fa fa-remove"></i>
   </a>
   <a href="./static/world.png" target="_blank" class="w3-bar-item w3-button">
-	<h2>PM10 worldwide</h2>
+	<h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">PM10 worldwide</h2>
 	<img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="world.png")}}"> </a>
-  <a href="./static/Europe.jpg" target="_blank" class="w3-bar-item w3-button"><h2>PM10 in Europe</h2>
+  <a href="./static/Europe.jpg" target="_blank" class="w3-bar-item w3-button" ><h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">PM10 in Europe</h2>
   <img <img class="w3-image w3-round-large" src="{{ url_for('static', filename="Europe.jpg")}}" ></a>
 
 </nav>
 
 <!-- Navbar -->
 <div class="w3-top">
- <div class="w3-bar w3-theme-d2 w3-left-align">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Author</a>
-  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#map_leaf" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Map</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-green"><i class="fa fa-home w3-margin-right" style="font-family:Maiandra Gd, Trebuchet MS, Arial"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Author</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Work</a>
+  <a href="#map_leaf" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Map</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Contact</a>
   </div>
   </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
@@ -46,49 +46,28 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Author</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#map_id" class="w3-bar-item w3-button">Map</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#team" class="w3-bar-item w3-button" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Author</a>
+    <a href="#work" class="w3-bar-item w3-button" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Work</a>
+    <a href="#map_id" class="w3-bar-item w3-button" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Map</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Contact</a>
   </div>
 </div>
 
-<!-- Image Header -->
-<!--
-<div class="w3-display-container w3-animate-opacity">
-  <img <img src="{{ url_for('static', filename="semp2.jpg")}}" alt="Milan" style="width:100%;min-height:100px;max-height:800px;">
-  <div>
-	  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">What is PM10?</button>
-		</div>
-		<div style="position:bottom:100px;z-index:1;" class="w3-tooltip w3-display-bottomright w3-margin-bottom">
-			<a class="w3-button w3-theme" href="#title">
-			<span class="w3-xlarge">
-			<p style="nearest">Start!</p>
-			<i class="fa fa-chevron-circle-down"></i></span></a>
-		</div>
-	</div>
-</div>
-  
-</div>
--->
 <!-- Header with full-height image -->
 <header class="w3-display-container" id="home">
-	 <img <img src="{{ url_for('static', filename="bosco3.jpg")}}" alt="Milan" style="width:100%; opacity:0.68">
+	 <img <img src="{{ url_for('static', filename="bosco3.jpg")}}" alt="Milan" style="width:100%; opacity:0.8">
   <div class="w3-display-left w3-text-white" style="padding-left:192px; padding-right:145px; padding-top:150px">
     <span class="w3-jumbo w3-hide-small">
 	<div align="center">
-		 <a href="./static/title.jpg" target="_blank">
-		 <img src="{{ url_for('static', filename="becool.png")}}"alt="Title" style="width:60%" class="w3-hover-opacity align:center">
-		 </a>
+		 <img src="{{ url_for('static', filename="Senza titolo-1.png")}}"alt="Title" style="width:600px" class="align:center">
 		<br>
-		<span class="w3-jumbo w3-hide-small" style="color:black;font-family:Palatino Linotype">Prediction of air pollution based on PM10's concentration.</span><br>
-		<img src="{{ url_for('static', filename="duomo.png")}}"alt="duomo" style="width:20%" class="w3-hover-opacity align:center">
+		<span class="w3-jumbo w3-hide-small" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of air pollution based on PM10's concentration.</span><br>
+		<img src="{{ url_for('static', filename="duomo.png")}}"alt="duomo" style="width:20%" class="align:center">
 	</div>
 	</span><br>
-	<div>
-    <p><a href="#about" class="w3-button w3-green w3-padding-large w3-large w3-display-bottomleft w3-margin-top" style="color:green; padding-left:300px; opacity:0.95; font-family:Palatino Linotype">Learn more and start today</a></p>
-	<p><div class="w3-button w3-green w3-padding-middle w3-right w3-large w3-display-bottomright w3-margin-top" style="color:green; font-family:Palatino Linotype; opacity:0.95" onclick="document.getElementById('id01').style.display='block'">What is PM10?</a></p>
+	<div class="w3-large" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial">
+    <p><a href="#about" class="w3-button w3-green w3-padding-large w3-large w3-display-bottomleft w3-margin-top" style="color:black; padding-left:300px; font-family:Maiandra Gd, Trebuchet MS, Arial">Learn more and start!</a></p>
+	<p><div class="w3-button w3-green w3-padding-middle w3-right w3-large w3-display-bottomright w3-margin-top" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial" onclick="document.getElementById('id01').style.display='block'" title="PM10">What is PM10?</a></p>
 	</div>
 	</div>
  </div> 
@@ -97,36 +76,28 @@
 <!-- Modal -->
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
-    <header class="w3-container w3-teal w3-display-container"> 
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h5><br>PM10 </h5> 
-	  <h6>stand for particulate matter with a diameter between 2.5 and 10 micrometers (μm).</h6>
-      <h6>Daily average limit: <br> 50 µg/m3 for Europe and 150 µg/m3 for United State. <br> Do you want to know more?</h6>
+    <header class="w3-container w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-green w3-green w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4 style="font-family:Maiandra Gd, Trebuchet MS, Arial; color:#16b102"><br>PM10 </h4> 
+	  <h5 style="font-family:Maiandra Gd, Trebuchet MS, Arial">stand for particulate matter with a diameter between 2.5 and 10 micrometers (μm).</h5>
+      <h5 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Daily average limit: <br> 50 µg/m3 for Europe and 150 µg/m3 for United State. <br> Do you want to know more?</h5>
     </header>
     <div class="w3-container">
       <p></p>
-      <p>Go to <a class="w3-text-teal" href="https://en.wikipedia.org/wiki/Particulates">explanation.</a></p>
+      <h5 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Go to <a class="w3-text-teal" href="https://en.wikipedia.org/wiki/Particulates">explanation.</a></h5>
     </div>
-    <footer class="w3-container w3-teal">
-      <p>Be eco-friendly! Be usefull to yourself.</p>
+    <footer class="w3-container w3-green bottom">
+      <p style="font-family:Maiandra Gd, Trebuchet MS, Arial">Be eco-friendly! Be usefull to yourself.</p>
     </footer>
   </div>
 </div>
 
-<!-- Team Container -->
-<div class="w3-container w3-padding-64 w3-center w3-theme-l5" id="title"  >
- <a href="./static/title.jpg" target="_blank">
- <img src="{{ url_for('static', filename="becool.png")}}"alt="Title" style="width:45%" class="w3-hover-opacity">
- </a>
- <h2 style="font-family:Palatino Linotype; color:green"> <br>Prediction of air pollution based on PM10's concentration.</h2>
-<br>
-</div>
 <!-- Work Row -->
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
 <div class="w3-container" style="padding:128px 16px" id="about">
-	<h2 class="w3-center" style="font-family:Palatino Linotype">Prediction of PM10</h2>
-	<p class="w3-center w3-large" >The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
+	<h2 class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of PM10</h2>
+	<p class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial" >The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
 	PM10's concentration have impacts on climate and precipitation that adversely affect human health. <br>
 	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
 	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
@@ -157,19 +128,19 @@
 
 	<tr>
 	<td width='33%' style='vertical-align:top !important'>
-		<div align='center' style="padding-right: 60px; padding-left: 60px">
+		<div align='center' style="padding-right: 60px; padding-left: 60px; font-family:Maiandra Gd, Trebuchet MS, Arial">
 		<p class="w3-large"> Location </p>
 			<p>Insert your current/future position (max 5 days forward).</p>
 		</div>
 		</td>
 	<td width='33%' style='vertical-align:top !important'>   
-		<div  align='center' style="padding-right: 60px; padding-left: 60px">
+		<div  align='center' style="padding-right: 60px; padding-left: 60px; font-family:Maiandra Gd, Trebuchet MS, Arial">
 		<p class="w3-large">Prediction</p>
 			<p>Wait air quality's prediction.</p>
 		</div>
 	</td>
 	<td width='33%' style='vertical-align:top !important'>  
-		<div  align='center' style="padding-right: 60px; padding-left: 60px">
+		<div  align='center' style="padding-right: 60px; padding-left: 60px; font-family:Maiandra Gd, Trebuchet MS, Arial">
 			<p class="w3-large">Info</p>
 			<p>Learn information on the map below.</p>
 		</div>
@@ -185,9 +156,9 @@
 <!-- Google Maps -->
 <div id="map_leaf"></div>
 <div class="w3-container w3-padding-64 w3-theme-l5" style="padding-left: 20px">
-<div class="w3-padding-16""><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Map</span></div>
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Map</span></div>
 <div class="w3-section">
-<div class="w3-quarter" style='width:300px'>
+<div class="w3-quarter w3-large" style='width:300px; font-family:Maiandra Gd, Trebuchet MS, Arial'>
 	<form action = "" method="POST">
 	<label>Position (es. via Koch, Milano):</label>
 		<input class="w3-input" type="text" name="Position" required>
@@ -208,11 +179,6 @@
 	</form>
 </div>
 </div>
-<div>
-
-</div>
-
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
    crossorigin=""/>
@@ -220,28 +186,28 @@
    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
    crossorigin=""></script>
 <br />
-
-<div id="map_id" style="width:100%;height:500px;"></div>
+<center>
+<div id="map_id" style="width:95%;height:480px"></div>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-
+</center>
 <ul>
-	<p  style="font-family:Palatino Linotype"><br>Click the buttons below to switch on/off the icon on the map:</p>
+	<div style="padding-left:50px">
+	<p  style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>Click the buttons below to switch on/off the icons on the map:</p>
 	<table>
-	<tr>
-	<td>
-    <li><a id="Bike" href="#"><img src="{{ url_for('static', filename="bike_share.png")}}"alt="bike" class="w3-circle w3-hover-opacity w3-quarter" style="width:25%"> Bike
-	</a></li>
-	</td>
-	<td>
-	<li><a id="Railway_Station" href="#"><img src="{{ url_for('static', filename="train.png")}}"alt="train" class="w3-circle w3-hover-opacity w3-quarter" style="width:27%">Railway Station</a></li>
-	</td>
-    <td>
-	<li><a id="Pharmacy" href="#"><img src="{{ url_for('static', filename="phar.png")}}"alt="phar" class="w3-circle w3-hover-opacity w3-quarter" style="width:15%">Pharmacy</a></li>
-	</td>
-	</tr>
+		<tr>
+		<td>
+			<a id="Bike" style="margin-right:10px; vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial" href="#"><img src="{{ url_for('static', filename="bike_share.png")}}"alt="bike" height='70px'>Bike Sharing</a>
+		</td>
+		<td>
+			<a id="Railway_Station" style="margin-right:10px; vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial" href="#"><img src="{{ url_for('static', filename="train.png")}}"alt="train" height='70px'>Railway Station</a>
+		</td>
+		<td>
+			<a id="Pharmacy" style="margin-right:10px; vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial" href="#"><img src="{{ url_for('static', filename="phar.png")}}"alt="phar" height='70px'>Pharmacy</a>
+		</td>
+		</tr>
 	</table>
+	</div>
 </ul>
-
 
 <script>
 //var map_var =L.map('map_id').setView([45.4642700,  9.1895100], 16);
@@ -252,6 +218,7 @@ console.log(coordinate);
 if (coordinate == [45.4642700,  9.1895100]) {
 	console.log('milano');
 	var map_var =L.map('map_id').setView([45.4642700,  9.1895100], 16);
+	L.marker(coordinate).addTo(map_var).bindPopup('Milan').openPopup()
 	
 } else {
 	console.log(coordinate);
@@ -376,17 +343,36 @@ $("#Pharmacy").click(function(event) {
 <script>
 	document.location.hash = '#' + '{{ show_prev }}';
 </script>
-<div class="w3-container" style="padding:128px 16px; font-family:Palatino Linotype">
-	<h2 class='w3-center' style="font-family:Palatino Linotype">Air Pollution:</h2>
+<div style="position:up:100px;z-index:1;" class="w3-tooltip w3-right">
+		<a class="w3-button w3-theme" href="#map_leaf"><span class="w3-middle"><p class="w3-middle" style="nearest; font-family:Maiandra Gd, Trebuchet MS, Arial">Go to the map</p>   
+		<i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+<div class="w3-container" style="padding:128px 16px; font-family:Maiandra Gd, Trebuchet MS, Arial">
+	<h2 class='w3-center' style="font-family:Maiandra Gd, Trebuchet MS, Arial">Air Pollution:</h2>
 	<div class="w3-center">
 		<p><br>The concentration of PM10 in your location is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3. </p>
 		<br>
 	</div>
-		<center>	
-			<div class=page>
-			   {{ div | safe }}
-		</div>
-		</center>
+	<center>
+	<table>
+		<tr>
+		<td colspan="2">
+			<div align="center">	
+				<div class=page>
+				   {{ div | safe }}
+				</div>
+			</div>
+		</td>
+		</tr>
+		<tr>
+		<td style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:left !important">
+			<p> Low </p>
+		</td>
+		<td style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:right !important">
+			<p> High </p>
+		</td>
+	</table>
+	</center>
 </div>
 </div>
 {% endif %}
@@ -399,37 +385,37 @@ $("#Pharmacy").click(function(event) {
 
 <!-- Author and Model -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Author & Model</span></div>
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Author & Model</span></div>
 <div class="row">
   <div style='float: left; width: 50%'>
 	<a href="./static/comuni milano.jpg" target="_blank">
 	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
 	</a>
-	<h2 style="font-family:Palatino Linotype">Provincia di Milano</h2>
-	 <h5 style="font-family:Palatino Linotype">Area of study.</h5>
+	<h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Provincia di Milano</h2>
+	 <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
   </div>
   <div style='float: right; width: 50%'>
     <a href="./static/milcentro.jpg" target="_blank">
 	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
 	  </a>
-	  <h2 style="font-family:Palatino Linotype">Milano</h2>
-	  <h5 style="font-family:Palatino Linotype">Area of study.</h5>
+	  <h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Milano</h2>
+	  <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
   </div>
 </div>
 <br>
 <br>
 <br>
 <br>
-	<div style='float: left; width: 50%'>
-	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle w3-hover-opacity"><br><br>
+	<div class="w3-xlarge" style='float: left; width: 50%'>
+	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle"><br><br>
 	  
-	  <h4 style="font-family:Palatino Linotype">Alice Giampino</h4>
-	  <h6 style="font-family:Palatino Linotype">Statitician & Data Scientist</h6> 
+	  <h4 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Alice Giampino</h4>
+	  <h6 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Statitician & Data Scientist</h6> 
 	</div>
-	<div style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
-	<h4 style="font-family:Palatino Linotype"><br>Model: </h4>
+	<div class="w3-large" style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
+	<h4 style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>Model: </h4>
 
-		<p style="font-family:Palatino Linotype"><br>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
+		<p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
 		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
 		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
 		to the model. Also the previous two days of weather temperature are added (if available).
@@ -442,30 +428,12 @@ $("#Pharmacy").click(function(event) {
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
     <div class="w3-col m5 w3-center" style='margin: auto; float: none'>
-    <div class="w3-padding-16 w3-center"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Palatino Linotype">Contact</span></div>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Milan, IT</p>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +348 3381682</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  giampinoalice@gmail.com</p>
+    <div class="w3-padding-16 w3-center"><span class="w3-xxlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Contact</span></div>
+      <p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">For more information send me an email or text me.</p>
+	  <p class="w3-xlarge"><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Milan, IT</p>
+      <p class="w3-xlarge" ><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +348 3381682</p>
+      <p class="w3-xlarge" ><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  giampinoalice@gmail.com</p>
     </div>
-	<!--
-    <div class="w3-col m7">
-      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-      <div class="w3-section">      
-        <label>Name</label>
-        <input class="w3-input" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">      
-        <label>Email</label>
-        <input class="w3-input" type="text" name="Email" required>
-      </div>
-      <input class="w3-check" type="checkbox" checked name="Like">
-      <label>I Like it!</label>
-	  <button type="submit" class="form-group w3-right">
-		<a href="mailto:youremailaddress">Send</a>
-	  </button>
-      </form>
-    </div>
-	-->
 </div>
 
 <!-- Footer -->
