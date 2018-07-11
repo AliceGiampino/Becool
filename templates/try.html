@@ -54,8 +54,9 @@
 </div>
 
 <!-- Image Header -->
+<!--
 <div class="w3-display-container w3-animate-opacity">
-  <img <img src="{{ url_for('static', filename="parco_sempion.jpg")}}" alt="Milan" style="width:100%;min-height:100px;max-height:800px;">
+  <img <img src="{{ url_for('static', filename="semp2.jpg")}}" alt="Milan" style="width:100%;min-height:100px;max-height:800px;">
   <div>
 	  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
 			<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">What is PM10?</button>
@@ -70,6 +71,28 @@
 </div>
   
 </div>
+-->
+<!-- Header with full-height image -->
+<header class="w3-display-container" id="home">
+	 <img <img src="{{ url_for('static', filename="bosco3.jpg")}}" alt="Milan" style="width:100%; opacity:0.68">
+  <div class="w3-display-left w3-text-white" style="padding-left:192px; padding-right:145px; padding-top:150px">
+    <span class="w3-jumbo w3-hide-small">
+	<div align="center">
+		 <a href="./static/title.jpg" target="_blank">
+		 <img src="{{ url_for('static', filename="becool.png")}}"alt="Title" style="width:60%" class="w3-hover-opacity align:center">
+		 </a>
+		<br>
+		<span class="w3-jumbo w3-hide-small" style="color:black;font-family:Palatino Linotype">Prediction of air pollution based on PM10's concentration.</span><br>
+		<img src="{{ url_for('static', filename="duomo.png")}}"alt="duomo" style="width:20%" class="w3-hover-opacity align:center">
+	</div>
+	</span><br>
+	<div>
+    <p><a href="#about" class="w3-button w3-green w3-padding-large w3-large w3-display-bottomleft w3-margin-top" style="color:green; padding-left:300px; opacity:0.95; font-family:Palatino Linotype">Learn more and start today</a></p>
+	<p><div class="w3-button w3-green w3-padding-middle w3-right w3-large w3-display-bottomright w3-margin-top" style="color:green; font-family:Palatino Linotype; opacity:0.95" onclick="document.getElementById('id01').style.display='block'">What is PM10?</a></p>
+	</div>
+	</div>
+ </div> 
+</header>
 
 <!-- Modal -->
 <div id="id01" class="w3-modal">
