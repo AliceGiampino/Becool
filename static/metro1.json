@@ -1,0 +1,306 @@
+[
+  {
+    "coordinate": [
+      45.4678459,
+      9.1553396
+    ],
+    "Indirizzo": "METRO WAGNER MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5174545,
+      9.2261302
+    ],
+    "Indirizzo": "METRO VILLA S.G. MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4933597,
+      9.1203448
+    ],
+    "Indirizzo": "METRO URUGUAY MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5010431,
+      9.221039
+    ],
+    "Indirizzo": "METRO TURRO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5011517,
+      9.101530499999999
+    ],
+    "Indirizzo": "METRO S.LEONARDO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5339927,
+      9.231956199999999
+    ],
+    "Indirizzo": "METRO SESTO RONDO MILANO",
+    "linea": 1
+  },
+   {
+    "coordinate": [
+      45.461504,
+      9.1364845
+    ],
+    "Indirizzo": "METRO BANDE NERE MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5234771,
+      9.2279615
+    ],
+    "Indirizzo": "METRO SESTO MARELLI MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5416912,
+      9.2383334
+    ],
+    "Indirizzo": "METRO SESTO 1 MAGGIO FS MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4665214,
+      9.1975286
+    ],
+    "Indirizzo": "METRO SAN BABILA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4956697,
+      9.2194243
+    ],
+    "Indirizzo": "METRO ROVERETO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.52118369999999,
+      9.0787347
+    ],
+    "Indirizzo": "METRO RHO FIERAMILANO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4859581,
+      9.1371823
+    ],
+    "Indirizzo": "METRO QT8 MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.47492219999999,
+      9.2052028
+    ],
+    "Indirizzo": "METRO P.TA VENEZIA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4594136,
+      9.1292597
+    ],
+    "Indirizzo": "METRO PRIMATICCIO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5120295,
+      9.2244991
+    ],
+    "Indirizzo": "METRO PRECOTTO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5086914,
+      9.0858085
+    ],
+    "Indirizzo": "METRO PERO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4910692,
+      9.2181801
+    ],
+    "Indirizzo": "METRO PASTEUR MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.471425,
+      9.201948999999999
+    ],
+    "Indirizzo": "METRO PALESTRO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4682808,
+      9.1610952
+    ],
+    "Indirizzo": "METRO PAGANO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5052229,
+      9.093293899999999
+    ],
+    "Indirizzo": "METRO MOLINO DORINO MILANO",
+    "linea": 1
+  },
+ {
+    "coordinate": [
+      45.4794154,
+      9.143713499999999
+    ],
+    "Indirizzo": "METRO LOTTO FIERAMILANOCITY MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4845943,
+      9.215166
+    ],
+    "Indirizzo": "METRO LORETO M1 MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4803459,
+      9.210982699999999
+    ],
+    "Indirizzo": "METRO LIMA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4894755,
+      9.1264845
+    ],
+    "Indirizzo": "METRO LAMPUGNANO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4574286,
+      9.1225538
+    ],
+    "Indirizzo": "METRO INGANNI MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.5067343,
+      9.2227388
+    ],
+    "Indirizzo": "METRO GORLA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4648963,
+      9.143028
+    ],
+    "Indirizzo": "METRO GAMBARA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4636732,
+      9.1899778
+    ],
+    "Indirizzo": "METRO DUOMO M1 MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4664306,
+      9.1495658
+    ],
+    "Indirizzo": "METRO DE ANGELI MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4658427,
+      9.186144299999999
+    ],
+    "Indirizzo": "METRO CORDUSIO MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.467724,
+      9.1658083
+    ],
+    "Indirizzo": "METRO CONCILIAZIONE MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4684867,
+      9.182187599999999
+    ],
+    "Indirizzo": "METRO CAIROLI MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4679297,
+      9.1763561
+    ],
+    "Indirizzo": "METRO CADORNA FN M1 MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.470402,
+      9.1552923
+    ],
+    "Indirizzo": "METRO BUONARROTI MILANO",
+    "linea": 1
+  },
+    {
+    "coordinate": [
+      45.4553804,
+      9.1129255
+    ],
+    "Indirizzo": "METRO BISCEGLIE MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4970399,
+      9.110121399999999
+    ],
+    "Indirizzo": "METRO BONOLA MILANO",
+    "linea": 1
+  },
+  {
+    "coordinate": [
+      45.4736789,
+      9.1509693
+    ],
+    "Indirizzo": "METRO AMENDOLA MILANO",
+    "linea": 1
+  }
+]

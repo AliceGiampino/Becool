@@ -1,0 +1,291 @@
+[
+  {
+    "coordinate": [
+      45.5157833,
+      9.2859891
+    ],
+    "Indirizzo": "METRO VIMODRONE MILANO",
+    "linea": 2
+  },
+   {
+    "coordinate": [
+      45.5278485,
+      9.384974399999999
+    ],
+    "Indirizzo": "METRO VILLA POMPEA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5207398,
+      9.3459714
+    ],
+    "Indirizzo": "METRO VILLA FIORITA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4912044,
+      9.236996399999999
+    ],
+    "Indirizzo": "METRO UDINE MILANO",
+    "linea": 2
+  },
+   {
+    "coordinate": [
+      45.46232920000001,
+      9.175612
+    ],
+    "Indirizzo": "METRO S.AMBROGIO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4585957,
+      9.169653499999999
+    ],
+    "Indirizzo": "METRO S.AGOSTINO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.44321129999999,
+      9.1674042
+    ],
+    "Indirizzo": "METRO ROMOLO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4527364,
+      9.1697253
+    ],
+    "Indirizzo": "METRO P.TA GENOVA F.S. MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4806616,
+      9.225167299999999
+    ],
+    "Indirizzo": "METRO PIOLA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.477621,
+      9.1845831
+    ],
+    "Indirizzo": "METRO MOSCOVA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4845943,
+      9.215166
+    ],
+    "Indirizzo": "METRO LORETO M2 MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.471907,
+      9.182380799999999
+    ],
+    "Indirizzo": "METRO LANZA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4847116,
+      9.236336
+    ],
+    "Indirizzo": "METRO LAMBRATE FS MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5366896,
+      9.403505299999999
+    ],
+    "Indirizzo": "METRO GORGONZOLA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.48489989999999,
+      9.1948574
+    ],
+    "Indirizzo": "METRO GIOIA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5452872,
+      9.436625099999999
+    ],
+    "Indirizzo": "METRO GESSATE MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4371411,
+      9.1686693
+    ],
+    "Indirizzo": "METRO FAMAGOSTA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4837762,
+      9.1869228
+    ],
+    "Indirizzo": "METRO GARIBALDI FS MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4371411,
+      9.1686693
+    ],
+    "Indirizzo": "METRO FAMAGOSTA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5052526,
+      9.248192
+    ],
+    "Indirizzo": "METRO CRESCENZAGO MILANO",
+    "linea": 2
+  },
+   {
+    "coordinate": [
+      45.5202131,
+      9.2749271
+    ],
+    "Indirizzo": "METRO COLOGNO SUD MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5337304,
+      9.290310999999999
+    ],
+    "Indirizzo": "METRO COLOGNO NORD MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5274782,
+      9.2829642
+    ],
+    "Indirizzo": "METRO COLOGNO CENTRO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.50004149999999,
+      9.241425699999999
+    ],
+    "Indirizzo": "METRO CIMIANO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5209954,
+      9.3308255
+    ],
+    "Indirizzo": "METRO CERNUSCO SUL NAVIGLIO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4858877,
+      9.2042827
+    ],
+    "Indirizzo": "METRO CENTRALE FS MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.521864,
+      9.3631216
+    ],
+    "Indirizzo": "METRO CASSINA DE PECCHI MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5114424,
+      9.260510199999999
+    ],
+    "Indirizzo": "METRO CASCINA GOBBA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5173644,
+      9.2978355
+    ],
+    "Indirizzo": "METRO CASCINA BURRONA MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.5420795,
+      9.4235002
+    ],
+    "Indirizzo": "METRO CASCINA ANTONIETTA MILANO",
+    "linea": 2
+  },
+   {
+    "coordinate": [
+      45.4853612,
+      9.2097304
+    ],
+    "Indirizzo": "METRO CAIAZZO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4679297,
+      9.1763561
+    ],
+    "Indirizzo": "METRO CADORNA FN M2 MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.52530170000001,
+      9.3758969
+    ],
+    "Indirizzo": "METRO BUSSERO MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4094545,
+      9.1500463
+    ],
+    "Indirizzo": "METRO ASSAGO MILANOFIORI NORD MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4018193,
+      9.145602
+    ],
+    "Indirizzo": "METRO ASSAGO MILANOFIORI FORUM MILANO",
+    "linea": 2
+  },
+  {
+    "coordinate": [
+      45.4299788,
+      9.177374
+    ],
+    "Indirizzo": "METRO ABBIATEGRASSO MILANO",
+    "linea": 2
+  }
+]
+  

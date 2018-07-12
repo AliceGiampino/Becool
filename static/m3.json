@@ -1,0 +1,203 @@
+[
+  {
+    "coordinate": [
+      45.4861799,
+      9.2033922
+    ],
+    "Indirizzo": "METRO ZARA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4743336,
+      9.1949129
+    ],
+    "Indirizzo": "METRO TURATI MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.489425,
+      9.2007086
+    ],
+    "Indirizzo": "METRO SONDRIO MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4304978,
+      9.2709402
+    ],
+    "Indirizzo": "METRO SAN DONATO MILANO",
+    "linea": 3
+  },
+   {
+    "coordinate": [
+      45.4858877,
+      9.2042827
+    ],
+    "Indirizzo": "METRO CENTRALE FS MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4336821,
+      9.2380892
+    ],
+    "Indirizzo": "METRO ROGOREDO FS MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4803436,
+      9.1988243
+    ],
+    "Indirizzo": "METRO REPUBBLICA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.43719129999999,
+      9.2303546
+    ],
+    "Indirizzo": "METRO PORTO DI MARE MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.445782,
+      9.21313
+    ],
+    "Indirizzo": "METRO PORTA ROMANA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4701931,
+      9.1926892
+    ],
+    "Indirizzo": "METRO MONTENAPOLEONE MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4605818,
+      9.18947
+    ],
+    "Indirizzo": "METRO MISSORI MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4976952,
+      9.1852559
+    ],
+    "Indirizzo": "METRO MACIACHINI MILANO",
+    "linea": 3
+  },
+   {
+    "coordinate": [
+      45.4467636,
+      9.210816399999999
+    ],
+    "Indirizzo": "METRO LODI T.I.B.B. MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4636732,
+      9.1899778
+    ],
+    "Indirizzo": "METRO DUOMO M3 MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4605818,
+      9.18947
+    ],
+    "Indirizzo": "METRO MISSORI MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4976952,
+      9.1852559
+    ],
+    "Indirizzo": "METRO MACIACHINI MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4467636,
+      9.210816399999999
+    ],
+    "Indirizzo": "METRO LODI T.I.B.B. MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4636732,
+      9.1899778
+    ],
+    "Indirizzo": "METRO DUOMO M3 MILANO",
+    "linea": 3
+  },
+  {
+  
+    "coordinate": [
+      45.505537,
+      9.1796031
+    ],
+    "Indirizzo": "METRO DERGANO MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4557934,
+      9.1960839
+    ],
+    "Indirizzo": "METRO CROCETTA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4404073,
+      9.2238698
+    ],
+    "Indirizzo": "METRO CORVETTO MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.5284595,
+      9.1633093
+    ],
+    "Indirizzo": "METRO COMASINA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.4428107,
+      9.2184814
+    ],
+    "Indirizzo": "METRO BRENTA MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.5217774,
+      9.1680108
+    ],
+    "Indirizzo": "METRO AFFORI FN MILANO",
+    "linea": 3
+  },
+  {
+    "coordinate": [
+      45.51358219999999,
+      9.174181599999999
+    ],
+    "Indirizzo": "METRO AFFORI CENTRO MILANO",
+    "linea": 3
+  }
+]

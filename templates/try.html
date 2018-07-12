@@ -19,7 +19,7 @@
 
 <!-- Sidebar on click -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text" style="font-family:Maiandra Gd, Trebuchet MS, Arial; color:#16b102">Close
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text" style="font-family:Maiandra Gd, Trebuchet MS, Arial; color:#4caf50">Close
     <i class="fa fa-remove"></i>
   </a>
   <a href="./static/world.png" target="_blank" class="w3-bar-item w3-button">
@@ -59,15 +59,15 @@
   <div class="w3-display-left w3-text-white" style="padding-left:192px; padding-right:145px; padding-top:150px">
     <span class="w3-jumbo w3-hide-small">
 	<div align="center">
-		 <img src="{{ url_for('static', filename="Senza titolo-1.png")}}"alt="Title" style="width:600px" class="align:center">
+		 <img src="{{ url_for('static', filename="foglia1.png")}}"alt="Title" style="width:600px" class="align:center">
 		<br>
 		<span class="w3-jumbo w3-hide-small" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of air pollution based on PM10's concentration.</span><br>
 		<img src="{{ url_for('static', filename="duomo.png")}}"alt="duomo" style="width:20%" class="align:center">
 	</div>
 	</span><br>
 	<div class="w3-large" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial">
-    <p><a href="#about" class="w3-button w3-green w3-padding-large w3-large w3-display-bottomleft w3-margin-top" style="color:black; padding-left:300px; font-family:Maiandra Gd, Trebuchet MS, Arial">Learn more and start!</a></p>
-	<p><div class="w3-button w3-green w3-padding-middle w3-right w3-large w3-display-bottomright w3-margin-top" style="color:black; font-family:Maiandra Gd, Trebuchet MS, Arial" onclick="document.getElementById('id01').style.display='block'" title="PM10">What is PM10?</a></p>
+    <p><a href="#about" class="w3-button w3-padding-large w3-xlarge w3-display-bottomleft w3-margin-top" style="color:white; padding-left:300px; font-family:Maiandra Gd, Trebuchet MS, Arial; background-color:#4caf50 !important">Learn more and start!</a></p>
+	<p><div class="w3-button w3-padding-middle w3-right w3-xlarge w3-display-bottomright w3-margin-top" style="color:white; font-family:Maiandra Gd, Trebuchet MS, Arial; background-color:#4caf50 !important" onclick="document.getElementById('id01').style.display='block'" title="PM10">What is PM10?</a></p>
 	</div>
 	</div>
  </div> 
@@ -96,12 +96,13 @@
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
 <div class="w3-container" style="padding:128px 16px" id="about">
-	<h2 class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of PM10</h2>
-	<p class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial" >The goal is to inform about air pullotion in a particular day and gives some advice for improve our life-style and be eco-friendly. <br>
+	<h2 class="w3-center w3-xxlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of PM10</h2>
+	<p class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial" >The goal is to inform about air pullotion in a particular day and give some advice to improve our life-style and be eco-friendly. <br>
 	PM10's concentration have impacts on climate and precipitation that adversely affect human health. <br>
 	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
 	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
-	So it's important be-ecofriendly and be informated not only for our health but for our earth's health too. </p>
+	So it's important to be-ecofriendly and be informed not only for our health but for our earth's health too. <br>
+	Remember that only positions in Milan's municipalities are valid.</p>
 	<br><br><br>
 	
 	<div align='center' width='80%'>
@@ -155,13 +156,16 @@
 
 <!-- Google Maps -->
 <div id="map_leaf"></div>
-<div class="w3-container w3-padding-64 w3-theme-l5" style="padding-left: 20px">
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Map</span></div>
+<div class="w3-container w3-padding-64 w3-theme-l5" style="padding-left: 20px; border-color:#4caf50">
+<div class="w3-padding-16"><span class="w3-xlarge w3-bottombar border-color:#4caf50" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Map</span></div>
 <div class="w3-section">
 <div class="w3-quarter w3-large" style='width:300px; font-family:Maiandra Gd, Trebuchet MS, Arial'>
 	<form action = "" method="POST">
 	<label>Position (es. via Koch, Milano):</label>
 		<input class="w3-input" type="text" name="Position" required>
+		<table>
+		<tr>
+		<td>
 		  <div class="form-group">
 	                   <label for="unique_carrier">Date:</label>
                        <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
@@ -171,11 +175,13 @@
                         </span>
                     </div>
                    </div>
-                <div class="form-group">
-					
-                    <input type="submit" value="Go!" class="btn btn-primary float-right" />
-					
+		</td>
+		<td>
+                <div class="form-group color:#16b102" align="bottom">
+                    <input type="submit" value="Go!" style="margin-left:12px; margin-top:12px; color:white; vertical-align:top; font-family: Trebuchet MS, Arial; background-color:#4caf50; border-color:#4caf50" class="float-right" />
                 </div>
+		</td>
+		</table>
 	</form>
 </div>
 </div>
@@ -203,6 +209,9 @@
 		</td>
 		<td>
 			<a id="Pharmacy" style="margin-right:10px; vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial" href="#"><img src="{{ url_for('static', filename="phar.png")}}"alt="phar" height='70px'>Pharmacy</a>
+		</td>
+		<td>
+			<a id="Subway" style="margin-right:10px; vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial" href="#"><img src="{{ url_for('static', filename="metro.png")}}"alt="subway" height='70px'>Subway</a>
 		</td>
 		</tr>
 	</table>
@@ -235,6 +244,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var group1 = L.featureGroup();
 var group2 = L.featureGroup();
 var group3 = L.featureGroup();
+var group4 = L.featureGroup();
 
 var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
            for (var i = 0; i < json1.length; i++) {
@@ -256,7 +266,7 @@ var bike = $.getJSON( "./static/bike_coordinate.json", function(json1) {
 
     });
 	
-    var ferrovia = $.getJSON( "./static/train.json", function(json2) {
+var ferrovia = $.getJSON( "./static/train.json", function(json2) {
            for (var i = 0; i < json2.length; i++) {
             var place = json2[i];
             console.log( place );
@@ -298,9 +308,87 @@ var farmacie = $.getJSON( "./static/farmacie.json", function(json3) {
 	 
 });
 
+var m2 = $.getJSON( "./static/m2.json", function(json5) {
+	   for (var i = 0; i < json5.length; i++) {
+		var place = json5[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/m2.png',
+		iconSize:     [45, 35], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker_sub = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_sub != null){
+			marker_sub.addTo(group4).bindPopup(place.Indirizzo);
+			}
+		else{$('#m2').text = "Error"}
+		}
+	 
+});
+var m1 = $.getJSON( "./static/metro1.json", function(json4) {
+	   for (var i = 0; i < json4.length; i++) {
+		var place = json4[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/m1.png',
+		iconSize:     [45, 35], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker_sub = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_sub != null){
+			marker_sub.addTo(group4).bindPopup(place.Indirizzo);
+			}
+		else{$('#me1').text = "Error"}
+		}
+	 
+});
+var m3 = $.getJSON( "./static/m3.json", function(json6) {
+	   for (var i = 0; i < json6.length; i++) {
+		var place = json6[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/m3.png',
+		iconSize:     [45, 35], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker_sub = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_sub != null){
+			marker_sub.addTo(group4).bindPopup(place.Indirizzo);
+			}
+		else{$('#m3').text = "Error"}
+		}
+	 
+});
+var m5 = $.getJSON( "./static/m5.json", function(json7) {
+	   for (var i = 0; i < json7.length; i++) {
+		var place = json7[i];
+		console.log( place );
+		   // Creating a marker and putting it on the map
+		var customIcon = L.icon({
+		iconUrl: './static/m5.png',
+		iconSize:     [45, 35], // size of the icon
+		iconAnchor:   [10, 40], // point of the icon which will correspond to marker's location
+		popupAnchor:  [5, -40] // point from which the popup should open relative to the iconAnchor
+		}); 
+		var marker_sub = L.marker(place.coordinate, {icon: customIcon});
+		if (marker_sub != null){
+			marker_sub.addTo(group4).bindPopup(place.Indirizzo);
+			}
+		else{$('#m5').text = "Error"}
+		}
+	 
+});
+
 map_var.addLayer(group1);
 map_var.addLayer(group2);
 map_var.addLayer(group3);
+map_var.addLayer(group4);
 
 $("#Bike").click(function(event) {
     event.preventDefault();
@@ -335,6 +423,17 @@ $("#Pharmacy").click(function(event) {
    }
 });
 
+$("#Subway").click(function(event) {
+    event.preventDefault();
+    if(map_var.hasLayer(group4)) {
+		$(this).removeClass('selected');
+        map_var.removeLayer(group4);
+    } else {
+		map_var.addLayer(group4);                 
+        $(this).addClass('selected');
+   }
+});
+
 </script>
 </div>
 
@@ -343,14 +442,14 @@ $("#Pharmacy").click(function(event) {
 <script>
 	document.location.hash = '#' + '{{ show_prev }}';
 </script>
-<div style="position:up:100px;z-index:1;" class="w3-tooltip w3-right">
-		<a class="w3-button w3-theme" href="#map_leaf"><span class="w3-middle"><p class="w3-middle" style="nearest; font-family:Maiandra Gd, Trebuchet MS, Arial">Go to the map</p>   
+<div style="position:up:100px;z-index:1; background-color:#4caf50 !important" class="w3-tooltip w3-right">
+		<a class="w3-button w3-theme" style="background-color:#4caf50 !important" href="#map_leaf"><span class="w3-middle" style="background-color:#4caf50 !important"><p class="w3-middle" style="nearest; font-family:Maiandra Gd, Trebuchet MS, Arial; background-color:#4caf50">Go to the map</p>   
 		<i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
 <div class="w3-container" style="padding:128px 16px; font-family:Maiandra Gd, Trebuchet MS, Arial">
-	<h2 class='w3-center' style="font-family:Maiandra Gd, Trebuchet MS, Arial">Air Pollution:</h2>
+	<h2 class='w3-center w3-xxlarge' style="font-family:Maiandra Gd, Trebuchet MS, Arial">Air Pollution:</h2>
 	<div class="w3-center">
-		<p><br>The concentration of PM10 in your location is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3. </p>
+		<p class="w3-xlarge"><br>The concentration of PM10 in your location is {{ prevision }} µg/m3. <br><br> Don't forget that the European daily limit is 50 µg/m3. </p>
 		<br>
 	</div>
 	<center>
@@ -365,10 +464,10 @@ $("#Pharmacy").click(function(event) {
 		</td>
 		</tr>
 		<tr>
-		<td style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:left !important">
+		<td class="w3-large" style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:left !important">
 			<p> Low </p>
 		</td>
-		<td style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:right !important">
+		<td class="w3-large" style="vertical-align:top; font-family:Maiandra Gd, Trebuchet MS, Arial; float:right !important">
 			<p> High </p>
 		</td>
 	</table>
@@ -377,15 +476,9 @@ $("#Pharmacy").click(function(event) {
 </div>
 {% endif %}
 
-<!-- Container -->
-<div class="w3-container" style="position:relative">
-  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
-  style="position:absolute;top:-28px;right:24px">+</a>
-</div>
-
 <!-- Author and Model -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Author & Model</span></div>
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Author & Model</span></div>
 <div class="row">
   <div style='float: left; width: 50%'>
 	<a href="./static/comuni milano.jpg" target="_blank">
@@ -415,7 +508,7 @@ $("#Pharmacy").click(function(event) {
 	<div class="w3-large" style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
 	<h4 style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>Model: </h4>
 
-		<p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>The model is based on PM10's measurements on the area of study for 3 years (25 May 2015 - 25 May 2018),
+		<p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>The model is based on PM10's measurements on the area of study that took 3 years (25 May 2015 - 25 May 2018),
 		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
 		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
 		to the model. Also the previous two days of weather temperature are added (if available).
@@ -424,22 +517,27 @@ $("#Pharmacy").click(function(event) {
 		</p>
 	</div>
 </div>
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle"
+  style="position:absolute;top:-28px;right:24px; color:white; background-color:#4caf50 !important">+</a>
+</div>
 
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
     <div class="w3-col m5 w3-center" style='margin: auto; float: none'>
-    <div class="w3-padding-16 w3-center"><span class="w3-xxlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Contact</span></div>
+    <div class="w3-padding-16 w3-center"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Contact</span></div>
       <p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">For more information send me an email or text me.</p>
-	  <p class="w3-xlarge"><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Milan, IT</p>
-      <p class="w3-xlarge" ><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +348 3381682</p>
-      <p class="w3-xlarge" ><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  giampinoalice@gmail.com</p>
+	  <p class="w3-xlarge"><i class="fa fa-map-marker w3-xlarge" style="color:#4caf50 !important"></i> Milan, IT</p>
+      <p class="w3-xlarge" ><i class="fa fa-phone w3-xlarge" style="color:#4caf50 !important"></i>  +348 3381682</p>
+      <p class="w3-xlarge" ><i class="fa fa-envelope-o w3-xlarge" style="color:#4caf50 !important"></i>  giampinoalice@gmail.com</p>
     </div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
   <div style="position:bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <span class="w3-text w3-padding w3-hide-small" style="background-color:#4caf50 !important" >Go To Top</span>   
     <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>

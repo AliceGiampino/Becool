@@ -1,0 +1,154 @@
+[
+  {
+    "coordinate": [
+      45.4781414,
+      9.1566191
+    ],
+    "Indirizzo": "METRO TRE TORRI MILANO",
+    "linea": 5
+  },
+    {
+    "coordinate": [
+      45.4861799,
+      9.2033922
+    ],
+    "Indirizzo": "METRO ZARA MILANO",
+    "linea": 5
+  },
+    {
+    "coordinate": [
+      45.4762484,
+      9.1378372
+    ],
+    "Indirizzo": "METRO SEGESTA MILANO",
+    "linea": 5
+  },
+    {
+    "coordinate": [
+      45.526349,
+      9.211945
+    ],
+    "Indirizzo": "METRO BIGNAMI MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.5147339,
+      9.205369899999999
+    ],
+    "Indirizzo": "METRO BICOCCA MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4762928,
+      9.1229285
+    ],
+    "Indirizzo": "METRO SAN SIRO STADIO MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4760866,
+      9.1283788
+    ],
+    "Indirizzo": "METRO SAN SIRO IPPODROMO MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4815062,
+      9.150602
+    ],
+    "Indirizzo": "METRO PORTELLO MILANO",
+    "linea": 5
+  },
+   {
+    "coordinate": [
+      45.5220133,
+      9.2094924
+    ],
+    "Indirizzo": "METRO PONALE MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4848148,
+      9.1797931
+    ],
+    "Indirizzo": "METRO MONUMENTALE MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4959266,
+      9.1946807
+    ],
+    "Indirizzo": "METRO MARCHE MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4794154,
+      9.143713499999999
+    ],
+    "Indirizzo": "METRO LOTTO M5 MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.5016262,
+      9.197920000000002
+    ],
+    "Indirizzo": "METRO ISTRIA MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4876083,
+      9.1912634
+    ],
+    "Indirizzo": "METRO ISOLA MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4846911,
+      9.1669871
+    ],
+    "Indirizzo": "METRO GERUSALEMME MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4837762,
+      9.1869228
+    ],
+    "Indirizzo": "METRO GARIBALDI FS MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4808954,
+      9.1622409
+    ],
+    "Indirizzo": "METRO DOMODOSSOLA MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.4874975,
+      9.171646599999999
+    ],
+    "Indirizzo": "METRO CENISIO MILANO",
+    "linea": 5
+  },
+  {
+    "coordinate": [
+      45.5073409,
+      9.2015241
+    ],
+    "Indirizzo": "METRO CA GRANDA MILANO",
+    "linea": 5
+  }
+]
