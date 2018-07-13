@@ -71,7 +71,7 @@ def get_prev():
 					dw=[20,  20, 10],
 					dh=[10,  10, 25])
 
-		p = figure( x_range=(10, 30), y_range=(20, 30), toolbar_location=None, plot_height=250, tools='hover,wheel_zoom')
+		p = figure( x_range=(10, 30), y_range=(20, 30), toolbar_location=None, plot_height=250)
 		p.image(source=data, image='image', x='x', y='y', dw='dw', dh='dh', palette='Viridis256') #'Inferno256'
 		p.axis.axis_label = None
 		p.axis.visible = False
