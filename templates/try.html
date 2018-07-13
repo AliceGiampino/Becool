@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="it-IT" prefix="og: http://ogp.me/ns#">
 <head>
-	<title>B-ecool</title>
+	<title>Capstone</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -35,7 +35,7 @@
  <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-green"><i class="fa fa-home w3-margin-right" style="font-family:Maiandra Gd, Trebuchet MS, Arial"></i>Home</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Author</a>
+  <a href="#model" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Model</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Work</a>
   <a href="#map_leaf" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Map</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Contact</a>
@@ -72,7 +72,41 @@
 	</div>
  </div> 
 </header>
-
+<!-- Model -->
+<div class="w3-container w3-padding-64 w3-center" id="model">
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Model</span></div>
+<div class="w3-large" align="center">
+	<p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial" align="center"><br>The model is based on PM10's measurements on the area of study that took 3 years (25 May 2015 - 25 May 2018), <br>
+	associated with weather temperature, humidity and wind speed of the same period. <br>Additional information about 
+	population's density of Milan's municipalities,<br> air pollution detection sensors, weekday, month and season have been added 
+	to the model. <br>Also the previous two days of weather temperature are added (if available).
+	<br>
+	The prediction is done in real time!
+	</p>
+</div>
+<br>
+<br>
+<div class="row">
+  <div style='float: left; width: 50%'>
+	<a href="./static/comuni milano.jpg" target="_blank">
+	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
+	</a>
+	<h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Provincia di Milano</h2>
+	 <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
+  </div>
+  <div style='float: right; width: 50%'>
+    <a href="./static/milcentro.jpg" target="_blank">
+	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
+	  </a>
+	  <h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Milano</h2>
+	  <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
 <!-- Modal -->
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-top">
@@ -98,11 +132,11 @@
 <div class="w3-container" style="padding:128px 16px" id="about">
 	<h2 class="w3-center w3-xxlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Prediction of PM10</h2>
 	<p class="w3-center w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial" >The goal is to inform about air pullotion in a particular day and give some advice to improve our life-style and be eco-friendly. <br>
-	PM10's concentration has impacts on climate and precipitations, as consequence they can even affect negatively human health. <br>
-	When the particles are inhaled they remain in the respiratory tract depending on their size. <br> 
-	The smallest ones are even more damaging to the cardiovascular system and can also cause respiratory diseases. <br>
+	PM10's concentration have impacts on climate and precipitation that adversely affect human health. <br>
+	The size of the particle is a main determinant of where in the respiratory tract the particle will come to rest when inhaled. <br> 
+	The smallest ones may be even more damaging to the cardiovascular system other than they can cause respiratory diseases. <br>
 	So it's important to be-ecofriendly and be informed not only for our health but for our earth's health too. <br>
-	Remember that only Milan's municipalities positions are valid.</p>
+	Remember that only positions in Milan's municipalities are valid.</p>
 	<br><br><br>
 	
 	<div align='center' width='80%'>
@@ -476,47 +510,6 @@ $("#Subway").click(function(event) {
 </div>
 {% endif %}
 
-<!-- Author and Model -->
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Author & Model</span></div>
-<div class="row">
-  <div style='float: left; width: 50%'>
-	<a href="./static/comuni milano.jpg" target="_blank">
-	<img src="{{ url_for('static', filename="comuni milano.jpg")}}"alt="Provincia di Milano" style="width:45%" class="w3-circle w3-hover-opacity"> 
-	</a>
-	<h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Provincia di Milano</h2>
-	 <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
-  </div>
-  <div style='float: right; width: 50%'>
-    <a href="./static/milcentro.jpg" target="_blank">
-	  <img src="{{ url_for('static', filename="milcentro.jpg")}}"alt="Milano" style="width:35%" class="w3-circle w3-hover-opacity">
-	  </a>
-	  <h2 style="font-family:Maiandra Gd, Trebuchet MS, Arial">Milano</h2>
-	  <h5 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Area of study.</h5>
-  </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-	<div class="w3-xlarge" style='float: left; width: 50%'>
-	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle"><br><br>
-	  
-	  <h4 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Alice Giampino</h4>
-	  <h6 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Statitician & Data Scientist</h6> 
-	</div>
-	<div class="w3-large" style='float: right; width: 50%; padding-left: 50px; padding-right: 50px'>
-	<h4 style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>Model: </h4>
-
-		<p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial"><br>The model is based on PM10's measurements on the area of study that took 3 years (25 May 2015 - 25 May 2018),
-		associated with weather temperature, humidity and wind speed of the same period. Additional information about 
-		population's density of Milan's municipalities, air pollution detection sensors, weekday, month and season have been added 
-		to the model. Also the previous two days of weather temperature are added (if available).
-		<br>
-		The prediction is done in real time!
-		</p>
-	</div>
-</div>
 <!-- Container -->
 <div class="w3-container" style="position:relative">
   <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle"
@@ -524,9 +517,16 @@ $("#Subway").click(function(event) {
 </div>
 
 <!-- Contact Container -->
-<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+<div id="contact">
     <div class="w3-col m5 w3-center" style='margin: auto; float: none'>
-    <div class="w3-padding-16 w3-center"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Contact</span></div>
+    <div class="w3-padding-16 w3-center"><span class="w3-xlarge w3-border-teal w3-bottombar" style="font-family:Maiandra Gd, Trebuchet MS, Arial; font-weight:bold; border-color:#4caf50 !important">Contact & Author</span></div>
+		<div class="w3-xlarge">
+	  <img src="{{ url_for('static', filename="zoom.jpg")}}"alt="Author" style="width:150px" class="w3-circle"><br><br>
+	  
+	  <h4 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Alice Giampino</h4>
+	  <h6 class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">Statitician & Data Scientist</h6> 
+	</div>
+	<br>
       <p class="w3-xlarge" style="font-family:Maiandra Gd, Trebuchet MS, Arial">For more information send me an email or text me.</p>
 	  <p class="w3-xlarge"><i class="fa fa-map-marker w3-xlarge" style="color:#4caf50 !important"></i> Milan, IT</p>
       <p class="w3-xlarge" ><i class="fa fa-phone w3-xlarge" style="color:#4caf50 !important"></i>  +348 3381682</p>
