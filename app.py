@@ -38,10 +38,13 @@ def get_prev():
 		
 		loc = geocoder.google(location)
 		k=0
-		while loc.latlng == None and k<15:
+		while loc.latlng == None and k<25:
 			loc = geocoder.google(location)
 			k+=1
 		cord = loc.latlng
+		
+		if cord == None:
+			cord = [45.4642700,  9.1895100]
 		
 		df = pv.dataset(location, date_time, giorno, mese)
 
