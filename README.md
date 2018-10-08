@@ -1,3 +1,3 @@
 # Becool
 
-Show the app on b-ecool.herokuapp.com/
+Show the app on http://b-ecool.herokuapp.com/
