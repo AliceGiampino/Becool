@@ -11,6 +11,7 @@ matplotlib = "*"
 dill = "*"
 datetime = "*"
 bokeh = "*"
+geopy = "*"
 
 
 

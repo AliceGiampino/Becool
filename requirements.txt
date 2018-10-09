@@ -58,6 +58,8 @@ functools32==3.2.3.post2
 future==0.16.0
 futures==3.2.0
 geocoder==1.38.1
+geographiclib==1.49
+geopy==1.17.0
 gevent==1.2.2
 glob2==0.6
 graphviz==0.8.3

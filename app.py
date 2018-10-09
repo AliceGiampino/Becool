@@ -13,6 +13,7 @@ from bokeh.palettes import brewer
 from bokeh.plotting import figure, output_file
 from bokeh.models import Span
 from bokeh.embed import components
+from geopy import Nominatim
 
 app = Flask(__name__)
 app.vars = {}
@@ -36,15 +37,30 @@ def get_prev():
 		mese = date_time.month
 		giorno = int(date_time.weekday())
 		
-		loc = geocoder.google(location)
-		k=0
-		while loc.latlng == None and k<25:
-			loc = geocoder.google(location)
-			k+=1
-		cord = loc.latlng
+		#loc = geocoder.google(location)
+		#k=0
+		#while loc.latlng == None and k<15:
+		#	loc = geocoder.google(location)
+		#	k+=1
+		#cord = loc.latlng
 		
-		if cord == None:
-			cord = [45.4642700,  9.1895100]
+		#if cord == None:
+		#	cord = [45.4642700,  9.1895100]		
+		
+		geolocator = Nominatim()
+		
+		j = 0
+		while(j < 10):
+			try:
+				loc = geolocator.geocode(location)
+				#print(loc.latitude)
+				cord = [loc.latitude, loc.longitude]
+				break
+			except:
+				j += 1
+				if j==10:
+					cord = [45.4642700,  9.1895100]
+					print("Nada")
 		
 		df = pv.dataset(location, date_time, giorno, mese)
 
